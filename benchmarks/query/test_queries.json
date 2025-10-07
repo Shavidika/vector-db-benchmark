@@ -1,5 +1,37 @@
 [
   {
+    "query": "Find restaurant businesses",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "restaurant"
+    }
+  },
+  {
+    "query": "List all restaurant companies",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "restaurant"
+    }
+  },
+  {
+    "query": "Find technology businesses",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "technology"
+    }
+  },
+  {
+    "query": "List all technology companies",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "technology"
+    }
+  },
+  {
     "query": "Find online retail businesses",
     "type": "business_type",
     "expected_type": "business",
@@ -13,22 +45,6 @@
     "expected_type": "business",
     "filter": {
       "business_type": "online retail"
-    }
-  },
-  {
-    "query": "Find transport businesses",
-    "type": "business_type",
-    "expected_type": "business",
-    "filter": {
-      "business_type": "transport"
-    }
-  },
-  {
-    "query": "List all transport companies",
-    "type": "business_type",
-    "expected_type": "business",
-    "filter": {
-      "business_type": "transport"
     }
   },
   {
@@ -48,323 +64,355 @@
     }
   },
   {
-    "query": "Information about Berry Group",
+    "query": "Find healthcare businesses",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "healthcare"
+    }
+  },
+  {
+    "query": "List all healthcare companies",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "healthcare"
+    }
+  },
+  {
+    "query": "Find transport businesses",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "transport"
+    }
+  },
+  {
+    "query": "List all transport companies",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "transport"
+    }
+  },
+  {
+    "query": "Information about Parks, Franklin and Jensen",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "19"
+      "business_id": "B0033"
     }
   },
   {
-    "query": "Information about Sanchez Ltd",
+    "query": "Information about Clark Inc",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "82"
+      "business_id": "B0142"
     }
   },
   {
-    "query": "Information about Harvey-Myers",
+    "query": "Information about Griffin-Turner",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "2"
+      "business_id": "B0231"
     }
   },
   {
-    "query": "Information about Vargas-Miller",
+    "query": "Information about Adams and Sons",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "92"
+      "business_id": "B0254"
     }
   },
   {
-    "query": "Information about Hawkins, Reyes and Wu",
+    "query": "Information about Johnson-Thomas",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "76"
+      "business_id": "B0433"
     }
   },
   {
-    "query": "Information about Martin-Reyes",
+    "query": "Information about Wright-Robinson",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "89"
+      "business_id": "B0418"
     }
   },
   {
-    "query": "Information about Goodwin, Wang and Casey",
+    "query": "Information about Wise, Abbott and Coffey",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "55"
+      "business_id": "B0323"
     }
   },
   {
-    "query": "Information about Whitaker Inc",
+    "query": "Information about Wright LLC",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "41"
+      "business_id": "B0257"
     }
   },
   {
-    "query": "Information about Briggs and Sons",
+    "query": "Information about Morgan Inc",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "46"
+      "business_id": "B0143"
     }
   },
   {
-    "query": "Information about Downs Inc",
+    "query": "Information about Casey-Norman",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "1"
+      "business_id": "B0405"
     }
   },
   {
-    "query": "Information about Vance-Johnson",
+    "query": "Information about Valenzuela PLC",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "86"
+      "business_id": "B0479"
     }
   },
   {
-    "query": "Information about Christian, Johnson and Baker",
+    "query": "Information about Thompson-Lambert",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "25"
+      "business_id": "B0247"
     }
   },
   {
-    "query": "Information about Roberts LLC",
+    "query": "Information about James Ltd",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "58"
+      "business_id": "B0476"
     }
   },
   {
-    "query": "Information about Aguirre, Curtis and Romero",
+    "query": "Information about Horne, Wilson and Carey",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "9"
+      "business_id": "B0352"
     }
   },
   {
-    "query": "Information about Mcpherson-Nelson",
+    "query": "Information about Vaughn PLC",
     "type": "business_name",
     "expected_type": "business",
     "filter": {
-      "business_id": "53"
+      "business_id": "B0471"
     }
   },
   {
-    "query": "Find product Country Collection",
+    "query": "Find product Agree Books Free",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "7308"
+      "product_id": "B0288_P0046"
     }
   },
   {
-    "query": "Find product List Tell",
+    "query": "Find product Certainly Books Better",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "8465"
+      "product_id": "B0342_P0037"
     }
   },
   {
-    "query": "Find product Only Record",
+    "query": "Find product Yard Food Discussion",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "7568"
+      "product_id": "B0082_P0044"
     }
   },
   {
-    "query": "Find product Note Her",
+    "query": "Find product Project Books Amount",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "7664"
+      "product_id": "B0364_P0036"
     }
   },
   {
-    "query": "Find product Effort Mission",
+    "query": "Find product Director Food Language",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "6622"
+      "product_id": "B0429_P0030"
     }
   },
   {
-    "query": "Find product Its Positive",
+    "query": "Find product Kid Home Arrive",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "268"
+      "product_id": "B0380_P0011"
     }
   },
   {
-    "query": "Find product Adult Help",
+    "query": "Find product War Clothing Front",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "1568"
+      "product_id": "B0077_P0080"
     }
   },
   {
-    "query": "Find product Each Ago",
+    "query": "Find product Left Food Believe",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "168"
+      "product_id": "B0282_P0008"
     }
   },
   {
-    "query": "Find product Notice Force",
+    "query": "Find product Pass Food Mr",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "2051"
+      "product_id": "B0022_P0019"
     }
   },
   {
-    "query": "Find product Support Carry",
+    "query": "Find product Attack Electronics Federal",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "4435"
+      "product_id": "B0067_P0010"
     }
   },
   {
-    "query": "Find product Out Hot",
+    "query": "Find product Father Toys Each",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "10351"
+      "product_id": "B0250_P0066"
     }
   },
   {
-    "query": "Find product Agency Picture",
+    "query": "Find product Second Books Night",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "9662"
+      "product_id": "B0234_P0049"
     }
   },
   {
-    "query": "Find product Himself Reveal",
+    "query": "Find product One Food Begin",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "8106"
+      "product_id": "B0154_P0041"
     }
   },
   {
-    "query": "Find product Seek Number",
+    "query": "Find product None Home Attack",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "7530"
+      "product_id": "B0005_P0016"
     }
   },
   {
-    "query": "Find product Happy Manage",
+    "query": "Find product Statement Toys Card",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "7596"
+      "product_id": "B0399_P0016"
     }
   },
   {
-    "query": "Find product Item First",
+    "query": "Find product Difficult Clothing Hear",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "4070"
+      "product_id": "B0208_P0072"
     }
   },
   {
-    "query": "Find product Spend Area",
+    "query": "Find product Will Books Partner",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "8008"
+      "product_id": "B0394_P0080"
     }
   },
   {
-    "query": "Find product Test Condition",
+    "query": "Find product Official Food Specific",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "7225"
+      "product_id": "B0458_P0049"
     }
   },
   {
-    "query": "Find product Far Natural",
+    "query": "Find product Lose Electronics Red",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "6054"
+      "product_id": "B0243_P0052"
     }
   },
   {
-    "query": "Find product Chance Season",
+    "query": "Find product Food Food Hundred",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "10436"
+      "product_id": "B0025_P0094"
     }
   },
   {
-    "query": "Find product Contain This",
+    "query": "Find product Lay Beauty If",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "2256"
+      "product_id": "B0310_P0008"
     }
   },
   {
-    "query": "Find product Yes Moment",
+    "query": "Find product Short Books Win",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "1988"
+      "product_id": "B0079_P0083"
     }
   },
   {
-    "query": "Find product Major Large",
+    "query": "Find product Score Electronics Dark",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "11880"
+      "product_id": "B0012_P0016"
     }
   },
   {
-    "query": "Find product Become Build",
+    "query": "Find product Drug Toys Theory",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "2967"
+      "product_id": "B0476_P0085"
     }
   },
   {
-    "query": "Find product Least Future",
+    "query": "Find product Their Clothing Key",
     "type": "product_name",
     "expected_type": "product",
     "filter": {
-      "product_id": "9963"
+      "product_id": "B0366_P0045"
     }
   },
   {
@@ -738,42 +786,6 @@
   },
   {
     "query": "Luxury items",
-    "type": "generic",
-    "expected_type": "mixed",
-    "filter": {}
-  },
-  {
-    "query": "Everyday essentials",
-    "type": "generic",
-    "expected_type": "mixed",
-    "filter": {}
-  },
-  {
-    "query": "Search query 96",
-    "type": "generic",
-    "expected_type": "mixed",
-    "filter": {}
-  },
-  {
-    "query": "Search query 97",
-    "type": "generic",
-    "expected_type": "mixed",
-    "filter": {}
-  },
-  {
-    "query": "Search query 98",
-    "type": "generic",
-    "expected_type": "mixed",
-    "filter": {}
-  },
-  {
-    "query": "Search query 99",
-    "type": "generic",
-    "expected_type": "mixed",
-    "filter": {}
-  },
-  {
-    "query": "Search query 100",
     "type": "generic",
     "expected_type": "mixed",
     "filter": {}

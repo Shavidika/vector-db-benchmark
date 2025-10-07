@@ -1,4 +1,4 @@
 Database,Total Insertion Time (s),Avg Insertion Time/Tenant (s),Total Query Time (s),Avg Query Latency (ms),Min Latency (ms),Max Latency (ms),Std Latency (ms),Avg Memory (MB),Avg CPU (%),Cross-Tenant Leakage,Total Queries,Leakage Rate (%)
-Qdrant,102.37,8.9863,2.58,10.01,4.01,26.91,6.25,409.02,2.00,0,100,0.0000
-Weaviate,153.22,14.0034,2.40,5.14,1.51,29.96,3.09,334.08,1.84,0,100,0.0000
-Chromadb,107.45,9.3814,6.88,54.03,34.87,81.44,8.08,451.85,0.00,0,100,0.0000
+Qdrant,646.91,11.7622,26.13,11.81,5.02,80.89,5.44,672.82,2.85,0,500,0.0000
+Weaviate,831.16,15.4413,10.55,4.59,0.00,32.65,1.95,538.57,2.20,0,500,0.0000
+Chromadb,528.61,9.3946,35.78,55.01,0.00,141.56,20.59,823.50,0.00,0,500,0.0000

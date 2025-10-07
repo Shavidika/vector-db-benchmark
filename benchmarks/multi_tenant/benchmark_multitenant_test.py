@@ -675,9 +675,9 @@ def main():
     print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
     
-    # Create benchmark instance with smaller numbers for testing
+    # Create benchmark instance with 50 tenants for comprehensive testing
     benchmark = MultiTenantBenchmark(
-        num_tenants=10,
+        num_tenants=50,
         products_per_tenant=500
     )
     

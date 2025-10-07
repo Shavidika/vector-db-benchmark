@@ -1,4 +1,4 @@
 Database,Avg Latency (ms),Min Latency (ms),Max Latency (ms),Avg Precision@10,Avg Recall@10,Total Queries
-Qdrant,10.13,5.07,30.64,0.149,0.3832,100
-Weaviate,5.54,3.0,62.27,0.1,0.3302,100
-ChromaDB,52.95,45.39,77.61,0.14,0.3632,100
+Qdrant,13.02,3.66,49.92,0.124,0.2964,100
+Weaviate,6.71,3.12,67.4,0.113,0.2728,100
+ChromaDB,56.18,12.64,110.47,0.19,0.3513,100
