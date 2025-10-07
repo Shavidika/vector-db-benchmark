@@ -1,0 +1,781 @@
+[
+  {
+    "query": "Find online retail businesses",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "online retail"
+    }
+  },
+  {
+    "query": "List all online retail companies",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "online retail"
+    }
+  },
+  {
+    "query": "Find transport businesses",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "transport"
+    }
+  },
+  {
+    "query": "List all transport companies",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "transport"
+    }
+  },
+  {
+    "query": "Find hotel businesses",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "hotel"
+    }
+  },
+  {
+    "query": "List all hotel companies",
+    "type": "business_type",
+    "expected_type": "business",
+    "filter": {
+      "business_type": "hotel"
+    }
+  },
+  {
+    "query": "Information about Berry Group",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "19"
+    }
+  },
+  {
+    "query": "Information about Sanchez Ltd",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "82"
+    }
+  },
+  {
+    "query": "Information about Harvey-Myers",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "2"
+    }
+  },
+  {
+    "query": "Information about Vargas-Miller",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "92"
+    }
+  },
+  {
+    "query": "Information about Hawkins, Reyes and Wu",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "76"
+    }
+  },
+  {
+    "query": "Information about Martin-Reyes",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "89"
+    }
+  },
+  {
+    "query": "Information about Goodwin, Wang and Casey",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "55"
+    }
+  },
+  {
+    "query": "Information about Whitaker Inc",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "41"
+    }
+  },
+  {
+    "query": "Information about Briggs and Sons",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "46"
+    }
+  },
+  {
+    "query": "Information about Downs Inc",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "1"
+    }
+  },
+  {
+    "query": "Information about Vance-Johnson",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "86"
+    }
+  },
+  {
+    "query": "Information about Christian, Johnson and Baker",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "25"
+    }
+  },
+  {
+    "query": "Information about Roberts LLC",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "58"
+    }
+  },
+  {
+    "query": "Information about Aguirre, Curtis and Romero",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "9"
+    }
+  },
+  {
+    "query": "Information about Mcpherson-Nelson",
+    "type": "business_name",
+    "expected_type": "business",
+    "filter": {
+      "business_id": "53"
+    }
+  },
+  {
+    "query": "Find product Country Collection",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "7308"
+    }
+  },
+  {
+    "query": "Find product List Tell",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "8465"
+    }
+  },
+  {
+    "query": "Find product Only Record",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "7568"
+    }
+  },
+  {
+    "query": "Find product Note Her",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "7664"
+    }
+  },
+  {
+    "query": "Find product Effort Mission",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "6622"
+    }
+  },
+  {
+    "query": "Find product Its Positive",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "268"
+    }
+  },
+  {
+    "query": "Find product Adult Help",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "1568"
+    }
+  },
+  {
+    "query": "Find product Each Ago",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "168"
+    }
+  },
+  {
+    "query": "Find product Notice Force",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "2051"
+    }
+  },
+  {
+    "query": "Find product Support Carry",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "4435"
+    }
+  },
+  {
+    "query": "Find product Out Hot",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "10351"
+    }
+  },
+  {
+    "query": "Find product Agency Picture",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "9662"
+    }
+  },
+  {
+    "query": "Find product Himself Reveal",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "8106"
+    }
+  },
+  {
+    "query": "Find product Seek Number",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "7530"
+    }
+  },
+  {
+    "query": "Find product Happy Manage",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "7596"
+    }
+  },
+  {
+    "query": "Find product Item First",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "4070"
+    }
+  },
+  {
+    "query": "Find product Spend Area",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "8008"
+    }
+  },
+  {
+    "query": "Find product Test Condition",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "7225"
+    }
+  },
+  {
+    "query": "Find product Far Natural",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "6054"
+    }
+  },
+  {
+    "query": "Find product Chance Season",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "10436"
+    }
+  },
+  {
+    "query": "Find product Contain This",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "2256"
+    }
+  },
+  {
+    "query": "Find product Yes Moment",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "1988"
+    }
+  },
+  {
+    "query": "Find product Major Large",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "11880"
+    }
+  },
+  {
+    "query": "Find product Become Build",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "2967"
+    }
+  },
+  {
+    "query": "Find product Least Future",
+    "type": "product_name",
+    "expected_type": "product",
+    "filter": {
+      "product_id": "9963"
+    }
+  },
+  {
+    "query": "Show me cheap products under $1000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 0,
+      "price_max": 1000
+    }
+  },
+  {
+    "query": "Show me cheap products under $1000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 0,
+      "price_max": 1000
+    }
+  },
+  {
+    "query": "Show me cheap products under $1000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 0,
+      "price_max": 1000
+    }
+  },
+  {
+    "query": "Show me cheap products under $1000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 0,
+      "price_max": 1000
+    }
+  },
+  {
+    "query": "Show me moderately priced products $1000-$2000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 1000,
+      "price_max": 2000
+    }
+  },
+  {
+    "query": "Show me moderately priced products $1000-$2000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 1000,
+      "price_max": 2000
+    }
+  },
+  {
+    "query": "Show me moderately priced products $1000-$2000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 1000,
+      "price_max": 2000
+    }
+  },
+  {
+    "query": "Show me moderately priced products $1000-$2000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 1000,
+      "price_max": 2000
+    }
+  },
+  {
+    "query": "Show me products priced between $2000-$3000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 2000,
+      "price_max": 3000
+    }
+  },
+  {
+    "query": "Show me products priced between $2000-$3000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 2000,
+      "price_max": 3000
+    }
+  },
+  {
+    "query": "Show me products priced between $2000-$3000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 2000,
+      "price_max": 3000
+    }
+  },
+  {
+    "query": "Show me products priced between $2000-$3000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 2000,
+      "price_max": 3000
+    }
+  },
+  {
+    "query": "Show me premium products $3000-$4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 3000,
+      "price_max": 4000
+    }
+  },
+  {
+    "query": "Show me premium products $3000-$4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 3000,
+      "price_max": 4000
+    }
+  },
+  {
+    "query": "Show me premium products $3000-$4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 3000,
+      "price_max": 4000
+    }
+  },
+  {
+    "query": "Show me premium products $3000-$4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 3000,
+      "price_max": 4000
+    }
+  },
+  {
+    "query": "Show me expensive products over $4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 4000,
+      "price_max": 5000
+    }
+  },
+  {
+    "query": "Show me expensive products over $4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 4000,
+      "price_max": 5000
+    }
+  },
+  {
+    "query": "Show me expensive products over $4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 4000,
+      "price_max": 5000
+    }
+  },
+  {
+    "query": "Show me expensive products over $4000",
+    "type": "price_range",
+    "expected_type": "product",
+    "filter": {
+      "price_min": 4000,
+      "price_max": 5000
+    }
+  },
+  {
+    "query": "Find low stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 0,
+      "quantity_max": 100
+    }
+  },
+  {
+    "query": "Find low stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 0,
+      "quantity_max": 100
+    }
+  },
+  {
+    "query": "Find low stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 0,
+      "quantity_max": 100
+    }
+  },
+  {
+    "query": "Find medium stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 100,
+      "quantity_max": 500
+    }
+  },
+  {
+    "query": "Find medium stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 100,
+      "quantity_max": 500
+    }
+  },
+  {
+    "query": "Find medium stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 100,
+      "quantity_max": 500
+    }
+  },
+  {
+    "query": "Find high stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 500,
+      "quantity_max": 1000
+    }
+  },
+  {
+    "query": "Find high stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 500,
+      "quantity_max": 1000
+    }
+  },
+  {
+    "query": "Find high stock products",
+    "type": "quantity_range",
+    "expected_type": "product",
+    "filter": {
+      "quantity_min": 500,
+      "quantity_max": 1000
+    }
+  },
+  {
+    "query": "Best deals on products",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Top rated businesses",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Affordable options",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Premium services",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Budget friendly products",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "High quality items",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Popular choices",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Trending products",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Featured businesses",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Special offers",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Best value products",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Exclusive services",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Recommended items",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Customer favorites",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Top sellers",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "New arrivals",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Seasonal deals",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Limited edition",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Luxury items",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Everyday essentials",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Search query 96",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Search query 97",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Search query 98",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Search query 99",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  },
+  {
+    "query": "Search query 100",
+    "type": "generic",
+    "expected_type": "mixed",
+    "filter": {}
+  }
+]

@@ -1,0 +1,301 @@
+database,query_id,query,latency_ms,precision@10,recall@10,retrieved_count
+Qdrant,0,Find online retail businesses,18.21,1.0,0.2857,10
+Qdrant,1,List all online retail companies,8.96,1.0,0.2857,10
+Qdrant,2,Find transport businesses,7.56,1.0,0.2857,10
+Qdrant,3,List all transport companies,8.38,1.0,0.2857,10
+Qdrant,4,Find hotel businesses,16.59,0.1,0.0333,10
+Qdrant,5,List all hotel companies,8.0,0.3,0.1,10
+Qdrant,6,Information about Berry Group,10.27,0.1,1.0,10
+Qdrant,7,Information about Sanchez Ltd,6.03,0.1,1.0,10
+Qdrant,8,Information about Harvey-Myers,5.61,0.1,1.0,10
+Qdrant,9,Information about Vargas-Miller,5.52,0.1,1.0,10
+Qdrant,10,"Information about Hawkins, Reyes and Wu",7.1,0.1,1.0,10
+Qdrant,11,Information about Martin-Reyes,6.78,0.1,1.0,10
+Qdrant,12,"Information about Goodwin, Wang and Casey",6.7,0.1,1.0,10
+Qdrant,13,Information about Whitaker Inc,30.64,0.1,1.0,10
+Qdrant,14,Information about Briggs and Sons,6.61,0.1,1.0,10
+Qdrant,15,Information about Downs Inc,16.4,0.1,1.0,10
+Qdrant,16,Information about Vance-Johnson,19.78,0.1,1.0,10
+Qdrant,17,"Information about Christian, Johnson and Baker",6.63,0.1,1.0,10
+Qdrant,18,Information about Roberts LLC,19.36,0.1,1.0,10
+Qdrant,19,"Information about Aguirre, Curtis and Romero",7.02,0.1,1.0,10
+Qdrant,20,Information about Mcpherson-Nelson,7.5,0.1,1.0,10
+Qdrant,21,Find product Country Collection,11.57,0.1,1.0,10
+Qdrant,22,Find product List Tell,10.15,0.1,1.0,10
+Qdrant,23,Find product Only Record,9.05,0.1,1.0,10
+Qdrant,24,Find product Note Her,9.93,0.0,0.0,10
+Qdrant,25,Find product Effort Mission,8.0,0.1,1.0,10
+Qdrant,26,Find product Its Positive,8.96,0.0,0.0,10
+Qdrant,27,Find product Adult Help,9.27,0.1,1.0,10
+Qdrant,28,Find product Each Ago,8.61,0.1,1.0,10
+Qdrant,29,Find product Notice Force,8.55,0.1,1.0,10
+Qdrant,30,Find product Support Carry,7.9,0.1,1.0,10
+Qdrant,31,Find product Out Hot,9.97,0.0,0.0,10
+Qdrant,32,Find product Agency Picture,9.2,0.1,1.0,10
+Qdrant,33,Find product Himself Reveal,8.99,0.1,1.0,10
+Qdrant,34,Find product Seek Number,8.22,0.1,1.0,10
+Qdrant,35,Find product Happy Manage,6.45,0.1,1.0,10
+Qdrant,36,Find product Item First,7.56,0.1,1.0,10
+Qdrant,37,Find product Spend Area,7.94,0.1,1.0,10
+Qdrant,38,Find product Test Condition,6.18,0.1,1.0,10
+Qdrant,39,Find product Far Natural,6.0,0.1,1.0,10
+Qdrant,40,Find product Chance Season,6.42,0.1,1.0,10
+Qdrant,41,Find product Contain This,7.0,0.1,1.0,10
+Qdrant,42,Find product Yes Moment,6.75,0.1,1.0,10
+Qdrant,43,Find product Major Large,6.01,0.1,1.0,10
+Qdrant,44,Find product Become Build,6.64,0.1,1.0,10
+Qdrant,45,Find product Least Future,6.45,0.1,1.0,10
+Qdrant,46,Show me cheap products under $1000,7.89,0.1,0.0004,10
+Qdrant,47,Show me cheap products under $1000,6.34,0.1,0.0004,10
+Qdrant,48,Show me cheap products under $1000,5.11,0.1,0.0004,10
+Qdrant,49,Show me cheap products under $1000,5.38,0.1,0.0004,10
+Qdrant,50,Show me moderately priced products $1000-$2000,22.01,0.4,0.0016,10
+Qdrant,51,Show me moderately priced products $1000-$2000,6.61,0.4,0.0016,10
+Qdrant,52,Show me moderately priced products $1000-$2000,5.07,0.4,0.0016,10
+Qdrant,53,Show me moderately priced products $1000-$2000,6.54,0.4,0.0016,10
+Qdrant,54,Show me products priced between $2000-$3000,30.22,0.1,0.0004,10
+Qdrant,55,Show me products priced between $2000-$3000,26.18,0.1,0.0004,10
+Qdrant,56,Show me products priced between $2000-$3000,6.68,0.1,0.0004,10
+Qdrant,57,Show me products priced between $2000-$3000,28.99,0.1,0.0004,10
+Qdrant,58,Show me premium products $3000-$4000,6.62,0.2,0.0008,10
+Qdrant,59,Show me premium products $3000-$4000,6.02,0.2,0.0008,10
+Qdrant,60,Show me premium products $3000-$4000,7.01,0.2,0.0008,10
+Qdrant,61,Show me premium products $3000-$4000,6.0,0.2,0.0008,10
+Qdrant,62,Show me expensive products over $4000,26.5,0.2,0.0009,10
+Qdrant,63,Show me expensive products over $4000,7.0,0.2,0.0009,10
+Qdrant,64,Show me expensive products over $4000,5.57,0.2,0.0009,10
+Qdrant,65,Show me expensive products over $4000,26.58,0.2,0.0009,10
+Qdrant,66,Find low stock products,6.49,0.0,0.0,10
+Qdrant,67,Find low stock products,5.61,0.0,0.0,10
+Qdrant,68,Find low stock products,25.4,0.0,0.0,10
+Qdrant,69,Find medium stock products,9.43,0.4,0.0008,10
+Qdrant,70,Find medium stock products,10.75,0.4,0.0008,10
+Qdrant,71,Find medium stock products,9.02,0.4,0.0008,10
+Qdrant,72,Find high stock products,11.32,0.5,0.0008,10
+Qdrant,73,Find high stock products,7.95,0.5,0.0008,10
+Qdrant,74,Find high stock products,8.15,0.5,0.0008,10
+Qdrant,75,Best deals on products,7.78,0.0,0.0,10
+Qdrant,76,Top rated businesses,6.89,0.1,0.025,10
+Qdrant,77,Affordable options,7.33,0.0,0.0,10
+Qdrant,78,Premium services,8.48,0.0,0.0,10
+Qdrant,79,Budget friendly products,7.4,0.0,0.0,10
+Qdrant,80,High quality items,7.79,0.0,0.0,10
+Qdrant,81,Popular choices,6.01,0.0,0.0,10
+Qdrant,82,Trending products,25.52,0.0,0.0,10
+Qdrant,83,Featured businesses,21.13,0.0,0.0,10
+Qdrant,84,Special offers,6.92,0.0,0.0,10
+Qdrant,85,Best value products,6.39,0.0,0.0,10
+Qdrant,86,Exclusive services,5.38,0.0,0.0,10
+Qdrant,87,Recommended items,7.01,0.0,0.0,10
+Qdrant,88,Customer favorites,25.74,0.0,0.0,10
+Qdrant,89,Top sellers,16.87,0.0,0.0,10
+Qdrant,90,New arrivals,5.87,0.0,0.0,10
+Qdrant,91,Seasonal deals,6.37,0.0,0.0,10
+Qdrant,92,Limited edition,7.1,0.0,0.0,10
+Qdrant,93,Luxury items,6.93,0.0,0.0,10
+Qdrant,94,Everyday essentials,7.02,0.0,0.0,10
+Qdrant,95,Search query 96,7.91,0.0,0.0,10
+Qdrant,96,Search query 97,9.94,0.0,0.0,10
+Qdrant,97,Search query 98,8.18,0.0,0.0,10
+Qdrant,98,Search query 99,6.93,0.0,0.0,10
+Qdrant,99,Search query 100,6.18,0.0,0.0,10
+Weaviate,0,Find online retail businesses,62.27,0.0,0.0,10
+Weaviate,1,List all online retail companies,5.36,0.0,0.0,10
+Weaviate,2,Find transport businesses,5.51,0.0,0.0,10
+Weaviate,3,List all transport companies,4.0,0.0,0.0,10
+Weaviate,4,Find hotel businesses,3.87,0.0,0.0,10
+Weaviate,5,List all hotel companies,4.11,0.0,0.0,10
+Weaviate,6,Information about Berry Group,6.02,0.0,0.0,10
+Weaviate,7,Information about Sanchez Ltd,4.64,0.1,1.0,10
+Weaviate,8,Information about Harvey-Myers,5.51,0.0,0.0,10
+Weaviate,9,Information about Vargas-Miller,4.5,0.1,1.0,10
+Weaviate,10,"Information about Hawkins, Reyes and Wu",6.53,0.0,0.0,10
+Weaviate,11,Information about Martin-Reyes,5.74,0.1,1.0,10
+Weaviate,12,"Information about Goodwin, Wang and Casey",6.0,0.1,1.0,10
+Weaviate,13,Information about Whitaker Inc,5.29,0.1,1.0,10
+Weaviate,14,Information about Briggs and Sons,4.53,0.1,1.0,10
+Weaviate,15,Information about Downs Inc,5.28,0.1,1.0,10
+Weaviate,16,Information about Vance-Johnson,5.52,0.1,1.0,10
+Weaviate,17,"Information about Christian, Johnson and Baker",4.07,0.1,1.0,10
+Weaviate,18,Information about Roberts LLC,5.01,0.0,0.0,10
+Weaviate,19,"Information about Aguirre, Curtis and Romero",5.0,0.1,1.0,10
+Weaviate,20,Information about Mcpherson-Nelson,5.09,0.1,1.0,10
+Weaviate,21,Find product Country Collection,5.01,0.1,1.0,10
+Weaviate,22,Find product List Tell,8.8,0.1,1.0,10
+Weaviate,23,Find product Only Record,5.67,0.1,1.0,10
+Weaviate,24,Find product Note Her,4.29,0.0,0.0,10
+Weaviate,25,Find product Effort Mission,3.9,0.1,1.0,10
+Weaviate,26,Find product Its Positive,4.29,0.0,0.0,10
+Weaviate,27,Find product Adult Help,4.28,0.1,1.0,10
+Weaviate,28,Find product Each Ago,4.0,0.1,1.0,10
+Weaviate,29,Find product Notice Force,4.12,0.1,1.0,10
+Weaviate,30,Find product Support Carry,5.07,0.1,1.0,10
+Weaviate,31,Find product Out Hot,4.13,0.0,0.0,10
+Weaviate,32,Find product Agency Picture,4.51,0.1,1.0,10
+Weaviate,33,Find product Himself Reveal,4.05,0.1,1.0,10
+Weaviate,34,Find product Seek Number,4.55,0.1,1.0,10
+Weaviate,35,Find product Happy Manage,4.0,0.1,1.0,10
+Weaviate,36,Find product Item First,3.51,0.1,1.0,10
+Weaviate,37,Find product Spend Area,4.61,0.1,1.0,10
+Weaviate,38,Find product Test Condition,4.77,0.1,1.0,10
+Weaviate,39,Find product Far Natural,3.0,0.1,1.0,10
+Weaviate,40,Find product Chance Season,4.0,0.1,1.0,10
+Weaviate,41,Find product Contain This,4.3,0.1,1.0,10
+Weaviate,42,Find product Yes Moment,4.55,0.1,1.0,10
+Weaviate,43,Find product Major Large,5.07,0.1,1.0,10
+Weaviate,44,Find product Become Build,4.68,0.1,1.0,10
+Weaviate,45,Find product Least Future,5.0,0.1,1.0,10
+Weaviate,46,Show me cheap products under $1000,5.7,0.1,0.0004,10
+Weaviate,47,Show me cheap products under $1000,4.24,0.1,0.0004,10
+Weaviate,48,Show me cheap products under $1000,3.62,0.1,0.0004,10
+Weaviate,49,Show me cheap products under $1000,4.0,0.1,0.0004,10
+Weaviate,50,Show me moderately priced products $1000-$2000,4.0,0.4,0.0016,10
+Weaviate,51,Show me moderately priced products $1000-$2000,4.0,0.4,0.0016,10
+Weaviate,52,Show me moderately priced products $1000-$2000,4.07,0.4,0.0016,10
+Weaviate,53,Show me moderately priced products $1000-$2000,4.84,0.4,0.0016,10
+Weaviate,54,Show me products priced between $2000-$3000,3.46,0.1,0.0004,10
+Weaviate,55,Show me products priced between $2000-$3000,4.01,0.1,0.0004,10
+Weaviate,56,Show me products priced between $2000-$3000,4.49,0.1,0.0004,10
+Weaviate,57,Show me products priced between $2000-$3000,4.55,0.1,0.0004,10
+Weaviate,58,Show me premium products $3000-$4000,4.76,0.2,0.0008,10
+Weaviate,59,Show me premium products $3000-$4000,4.48,0.2,0.0008,10
+Weaviate,60,Show me premium products $3000-$4000,4.36,0.2,0.0008,10
+Weaviate,61,Show me premium products $3000-$4000,3.88,0.2,0.0008,10
+Weaviate,62,Show me expensive products over $4000,3.88,0.2,0.0009,10
+Weaviate,63,Show me expensive products over $4000,4.28,0.2,0.0009,10
+Weaviate,64,Show me expensive products over $4000,4.75,0.2,0.0009,10
+Weaviate,65,Show me expensive products over $4000,5.16,0.2,0.0009,10
+Weaviate,66,Find low stock products,5.0,0.0,0.0,10
+Weaviate,67,Find low stock products,3.67,0.0,0.0,10
+Weaviate,68,Find low stock products,5.38,0.0,0.0,10
+Weaviate,69,Find medium stock products,4.01,0.4,0.0008,10
+Weaviate,70,Find medium stock products,4.0,0.4,0.0008,10
+Weaviate,71,Find medium stock products,4.05,0.4,0.0008,10
+Weaviate,72,Find high stock products,4.4,0.5,0.0008,10
+Weaviate,73,Find high stock products,6.6,0.5,0.0008,10
+Weaviate,74,Find high stock products,5.55,0.5,0.0008,10
+Weaviate,75,Best deals on products,8.15,0.0,0.0,10
+Weaviate,76,Top rated businesses,7.2,0.0,0.0,10
+Weaviate,77,Affordable options,7.52,0.0,0.0,10
+Weaviate,78,Premium services,6.99,0.0,0.0,10
+Weaviate,79,Budget friendly products,5.5,0.0,0.0,10
+Weaviate,80,High quality items,5.8,0.0,0.0,10
+Weaviate,81,Popular choices,4.58,0.0,0.0,10
+Weaviate,82,Trending products,8.49,0.0,0.0,10
+Weaviate,83,Featured businesses,5.27,0.0,0.0,10
+Weaviate,84,Special offers,5.62,0.0,0.0,10
+Weaviate,85,Best value products,3.94,0.0,0.0,10
+Weaviate,86,Exclusive services,4.78,0.0,0.0,10
+Weaviate,87,Recommended items,4.65,0.0,0.0,10
+Weaviate,88,Customer favorites,5.28,0.0,0.0,10
+Weaviate,89,Top sellers,6.1,0.0,0.0,10
+Weaviate,90,New arrivals,5.67,0.0,0.0,10
+Weaviate,91,Seasonal deals,5.12,0.0,0.0,10
+Weaviate,92,Limited edition,5.41,0.0,0.0,10
+Weaviate,93,Luxury items,5.92,0.0,0.0,10
+Weaviate,94,Everyday essentials,5.32,0.0,0.0,10
+Weaviate,95,Search query 96,5.32,0.0,0.0,10
+Weaviate,96,Search query 97,5.93,0.0,0.0,10
+Weaviate,97,Search query 98,5.32,0.0,0.0,10
+Weaviate,98,Search query 99,6.54,0.0,0.0,10
+Weaviate,99,Search query 100,6.04,0.0,0.0,10
+ChromaDB,0,Find online retail businesses,77.61,1.0,0.2857,10
+ChromaDB,1,List all online retail companies,56.98,1.0,0.2857,10
+ChromaDB,2,Find transport businesses,54.11,1.0,0.2857,10
+ChromaDB,3,List all transport companies,58.53,1.0,0.2857,10
+ChromaDB,4,Find hotel businesses,50.6,0.1,0.0333,10
+ChromaDB,5,List all hotel companies,49.74,0.3,0.1,10
+ChromaDB,6,Information about Berry Group,48.76,0.1,1.0,10
+ChromaDB,7,Information about Sanchez Ltd,55.69,0.1,1.0,10
+ChromaDB,8,Information about Harvey-Myers,47.69,0.1,1.0,10
+ChromaDB,9,Information about Vargas-Miller,55.7,0.1,1.0,10
+ChromaDB,10,"Information about Hawkins, Reyes and Wu",49.19,0.1,1.0,10
+ChromaDB,11,Information about Martin-Reyes,46.89,0.1,1.0,10
+ChromaDB,12,"Information about Goodwin, Wang and Casey",55.09,0.1,1.0,10
+ChromaDB,13,Information about Whitaker Inc,47.79,0.1,1.0,10
+ChromaDB,14,Information about Briggs and Sons,47.32,0.1,1.0,10
+ChromaDB,15,Information about Downs Inc,58.05,0.0,0.0,10
+ChromaDB,16,Information about Vance-Johnson,54.31,0.1,1.0,10
+ChromaDB,17,"Information about Christian, Johnson and Baker",55.04,0.1,1.0,10
+ChromaDB,18,Information about Roberts LLC,47.87,0.1,1.0,10
+ChromaDB,19,"Information about Aguirre, Curtis and Romero",56.45,0.0,0.0,10
+ChromaDB,20,Information about Mcpherson-Nelson,55.1,0.1,1.0,10
+ChromaDB,21,Find product Country Collection,55.57,0.1,1.0,10
+ChromaDB,22,Find product List Tell,59.27,0.1,1.0,10
+ChromaDB,23,Find product Only Record,55.64,0.1,1.0,10
+ChromaDB,24,Find product Note Her,49.35,0.0,0.0,10
+ChromaDB,25,Find product Effort Mission,57.02,0.1,1.0,10
+ChromaDB,26,Find product Its Positive,55.38,0.0,0.0,10
+ChromaDB,27,Find product Adult Help,54.49,0.1,1.0,10
+ChromaDB,28,Find product Each Ago,52.89,0.1,1.0,10
+ChromaDB,29,Find product Notice Force,57.54,0.1,1.0,10
+ChromaDB,30,Find product Support Carry,47.03,0.1,1.0,10
+ChromaDB,31,Find product Out Hot,52.92,0.0,0.0,10
+ChromaDB,32,Find product Agency Picture,46.73,0.1,1.0,10
+ChromaDB,33,Find product Himself Reveal,53.31,0.1,1.0,10
+ChromaDB,34,Find product Seek Number,55.14,0.1,1.0,10
+ChromaDB,35,Find product Happy Manage,46.47,0.1,1.0,10
+ChromaDB,36,Find product Item First,53.23,0.1,1.0,10
+ChromaDB,37,Find product Spend Area,56.35,0.1,1.0,10
+ChromaDB,38,Find product Test Condition,49.01,0.1,1.0,10
+ChromaDB,39,Find product Far Natural,57.23,0.1,1.0,10
+ChromaDB,40,Find product Chance Season,65.11,0.1,1.0,10
+ChromaDB,41,Find product Contain This,54.43,0.1,1.0,10
+ChromaDB,42,Find product Yes Moment,53.0,0.1,1.0,10
+ChromaDB,43,Find product Major Large,46.96,0.1,1.0,10
+ChromaDB,44,Find product Become Build,55.76,0.1,1.0,10
+ChromaDB,45,Find product Least Future,55.57,0.1,1.0,10
+ChromaDB,46,Show me cheap products under $1000,52.85,0.1,0.0004,10
+ChromaDB,47,Show me cheap products under $1000,51.36,0.1,0.0004,10
+ChromaDB,48,Show me cheap products under $1000,47.73,0.1,0.0004,10
+ChromaDB,49,Show me cheap products under $1000,51.12,0.1,0.0004,10
+ChromaDB,50,Show me moderately priced products $1000-$2000,52.0,0.3,0.0012,10
+ChromaDB,51,Show me moderately priced products $1000-$2000,49.25,0.3,0.0012,10
+ChromaDB,52,Show me moderately priced products $1000-$2000,54.73,0.3,0.0012,10
+ChromaDB,53,Show me moderately priced products $1000-$2000,45.39,0.3,0.0012,10
+ChromaDB,54,Show me products priced between $2000-$3000,51.06,0.1,0.0004,10
+ChromaDB,55,Show me products priced between $2000-$3000,51.82,0.1,0.0004,10
+ChromaDB,56,Show me products priced between $2000-$3000,47.43,0.1,0.0004,10
+ChromaDB,57,Show me products priced between $2000-$3000,47.8,0.1,0.0004,10
+ChromaDB,58,Show me premium products $3000-$4000,51.32,0.2,0.0008,10
+ChromaDB,59,Show me premium products $3000-$4000,52.33,0.2,0.0008,10
+ChromaDB,60,Show me premium products $3000-$4000,59.16,0.2,0.0008,10
+ChromaDB,61,Show me premium products $3000-$4000,52.3,0.2,0.0008,10
+ChromaDB,62,Show me expensive products over $4000,52.26,0.2,0.0009,10
+ChromaDB,63,Show me expensive products over $4000,54.02,0.2,0.0009,10
+ChromaDB,64,Show me expensive products over $4000,52.14,0.2,0.0009,10
+ChromaDB,65,Show me expensive products over $4000,53.67,0.2,0.0009,10
+ChromaDB,66,Find low stock products,53.68,0.0,0.0,10
+ChromaDB,67,Find low stock products,51.78,0.0,0.0,10
+ChromaDB,68,Find low stock products,52.53,0.0,0.0,10
+ChromaDB,69,Find medium stock products,52.34,0.4,0.0008,10
+ChromaDB,70,Find medium stock products,54.03,0.4,0.0008,10
+ChromaDB,71,Find medium stock products,49.84,0.4,0.0008,10
+ChromaDB,72,Find high stock products,49.94,0.4,0.0007,10
+ChromaDB,73,Find high stock products,56.99,0.4,0.0007,10
+ChromaDB,74,Find high stock products,50.68,0.4,0.0007,10
+ChromaDB,75,Best deals on products,52.57,0.0,0.0,10
+ChromaDB,76,Top rated businesses,58.1,0.1,0.025,10
+ChromaDB,77,Affordable options,50.98,0.0,0.0,10
+ChromaDB,78,Premium services,56.53,0.0,0.0,10
+ChromaDB,79,Budget friendly products,53.86,0.0,0.0,10
+ChromaDB,80,High quality items,48.74,0.0,0.0,10
+ChromaDB,81,Popular choices,49.92,0.0,0.0,10
+ChromaDB,82,Trending products,56.64,0.0,0.0,10
+ChromaDB,83,Featured businesses,56.08,0.0,0.0,10
+ChromaDB,84,Special offers,46.57,0.0,0.0,10
+ChromaDB,85,Best value products,48.71,0.0,0.0,10
+ChromaDB,86,Exclusive services,49.95,0.0,0.0,10
+ChromaDB,87,Recommended items,49.51,0.0,0.0,10
+ChromaDB,88,Customer favorites,52.12,0.0,0.0,10
+ChromaDB,89,Top sellers,50.21,0.0,0.0,10
+ChromaDB,90,New arrivals,54.7,0.0,0.0,10
+ChromaDB,91,Seasonal deals,53.6,0.0,0.0,10
+ChromaDB,92,Limited edition,56.97,0.0,0.0,10
+ChromaDB,93,Luxury items,52.35,0.0,0.0,10
+ChromaDB,94,Everyday essentials,47.96,0.0,0.0,10
+ChromaDB,95,Search query 96,50.08,0.0,0.0,10
+ChromaDB,96,Search query 97,56.4,0.0,0.0,10
+ChromaDB,97,Search query 98,52.92,0.0,0.0,10
+ChromaDB,98,Search query 99,57.01,0.0,0.0,10
+ChromaDB,99,Search query 100,57.48,0.0,0.0,10

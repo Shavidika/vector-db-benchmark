@@ -31,13 +31,13 @@ class VectorDBBenchmark:
         print("Loading data from CSV files...")
         
         businesses = []
-        with open('businesses.csv', 'r', encoding='utf-8') as f:
+        with open('../../data/businesses.csv', 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 businesses.append(row)
         
         products = []
-        with open('products.csv', 'r', encoding='utf-8') as f:
+        with open('../../data/products.csv', 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 products.append(row)
@@ -392,7 +392,7 @@ class VectorDBBenchmark:
         print("="*100)
         
         # Save to file
-        with open('benchmark_results.txt', 'w') as f:
+        with open('../../results/ingestion_results.txt', 'w') as f:
             f.write("="*100 + "\n")
             f.write("BENCHMARK RESULTS\n")
             f.write("="*100 + "\n")
@@ -410,7 +410,7 @@ class VectorDBBenchmark:
             
             f.write("="*100 + "\n")
         
-        print("\n✓ Results saved to benchmark_results.txt")
+        print("\n✓ Results saved to ../../results/ingestion_results.txt")
     
     def run_benchmarks(self):
         """Run all benchmarks"""
