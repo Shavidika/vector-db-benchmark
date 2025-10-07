@@ -18,7 +18,7 @@ import numpy as np
 
 # Import vector DB clients
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams, PointStruct
+from qdrant_client.models import Distance, VectorParams, PointStruct, HnswConfigDiff
 import weaviate
 from weaviate.classes.config import Configure, Property, DataType
 import chromadb
@@ -167,7 +167,11 @@ class MultiTenantBenchmark:
             
             client.create_collection(
                 collection_name=collection_name,
-                vectors_config=VectorParams(size=self.embedding_dim, distance=Distance.COSINE)
+                vectors_config=VectorParams(
+                    size=self.embedding_dim, 
+                    distance=Distance.COSINE,
+                    hnsw_config=HnswConfigDiff(m=16, ef_construct=200)
+                )
             )
             
             # Get products for this tenant
@@ -192,8 +196,8 @@ class MultiTenantBenchmark:
                 )
                 points.append(point)
             
-            # Insert in batches
-            batch_size = 100
+            # Insert in batches with optimized batch size
+            batch_size = 1000  # Increased from 100 for fair comparison
             for i in range(0, len(points), batch_size):
                 batch = points[i:i+batch_size]
                 client.upsert(collection_name=collection_name, points=batch)
@@ -344,8 +348,8 @@ class MultiTenantBenchmark:
                     "vector": embedding
                 })
             
-            # Insert in batches
-            batch_size = 100
+            # Insert in batches with optimized batch size
+            batch_size = 1000  # Increased from 100 for consistency
             for i in range(0, len(data_objects), batch_size):
                 batch = data_objects[i:i+batch_size]
                 with tenant_collection.batch.dynamic() as batch_insert:

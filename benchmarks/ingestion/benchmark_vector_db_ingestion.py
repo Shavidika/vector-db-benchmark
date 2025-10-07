@@ -13,7 +13,7 @@ from datetime import datetime
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams, PointStruct
+from qdrant_client.models import Distance, VectorParams, PointStruct, HnswConfigDiff
 import weaviate
 from weaviate.classes.init import Auth
 import chromadb
@@ -89,7 +89,14 @@ class VectorDBBenchmark:
         index_start = time.time()
         client.create_collection(
             collection_name=collection_name,
-            vectors_config=VectorParams(size=self.embedding_dim, distance=Distance.COSINE)
+            vectors_config=VectorParams(
+                size=self.embedding_dim, 
+                distance=Distance.COSINE,
+                hnsw_config=HnswConfigDiff(
+                    m=16,  # Number of edges per node (default: 16)
+                    ef_construct=200,  # Construction time parameter (default: 100)
+                )
+            )
         )
         index_time = time.time() - index_start
         
@@ -130,8 +137,8 @@ class VectorDBBenchmark:
                 payload=item['payload']
             ))
         
-        # Batch upload
-        batch_size = 100
+        # Batch upload with optimized batch size
+        batch_size = 1000  # Increased from 100 to 1000 for fair comparison
         for i in range(0, len(points), batch_size):
             batch = points[i:i+batch_size]
             client.upsert(collection_name=collection_name, points=batch)

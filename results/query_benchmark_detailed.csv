@@ -1,301 +1,301 @@
 database,query_id,query,latency_ms,precision@10,recall@10,retrieved_count
-Qdrant,0,Find restaurant businesses,48.19,1.0,0.1299,10
-Qdrant,1,List all restaurant companies,12.99,0.7,0.0909,10
-Qdrant,2,Find technology businesses,11.85,1.0,0.1087,10
-Qdrant,3,List all technology companies,32.33,0.0,0.0,10
-Qdrant,4,Find online retail businesses,17.05,0.0,0.0,10
-Qdrant,5,List all online retail companies,18.11,0.0,0.0,10
-Qdrant,6,Find hotel businesses,25.1,0.3,0.039,10
-Qdrant,7,List all hotel companies,13.43,0.0,0.0,10
-Qdrant,8,Find healthcare businesses,18.51,0.0,0.0,10
-Qdrant,9,List all healthcare companies,15.64,0.0,0.0,10
-Qdrant,10,Find transport businesses,10.29,1.0,0.1205,10
-Qdrant,11,List all transport companies,8.04,1.0,0.1205,10
-Qdrant,12,"Information about Parks, Franklin and Jensen",11.27,0.1,1.0,10
-Qdrant,13,Information about Clark Inc,8.27,0.1,1.0,10
-Qdrant,14,Information about Griffin-Turner,7.71,0.1,1.0,10
-Qdrant,15,Information about Adams and Sons,8.11,0.0,0.0,10
-Qdrant,16,Information about Johnson-Thomas,11.64,0.1,1.0,10
-Qdrant,17,Information about Wright-Robinson,9.21,0.0,0.0,10
-Qdrant,18,"Information about Wise, Abbott and Coffey",10.8,0.0,0.0,10
-Qdrant,19,Information about Wright LLC,8.81,0.1,1.0,10
-Qdrant,20,Information about Morgan Inc,21.42,0.1,1.0,10
-Qdrant,21,Information about Casey-Norman,7.52,0.0,0.0,10
-Qdrant,22,Information about Valenzuela PLC,14.54,0.1,1.0,10
-Qdrant,23,Information about Thompson-Lambert,14.88,0.0,0.0,10
-Qdrant,24,Information about James Ltd,8.14,0.0,0.0,10
-Qdrant,25,"Information about Horne, Wilson and Carey",14.95,0.1,1.0,10
-Qdrant,26,Information about Vaughn PLC,18.92,0.0,0.0,10
-Qdrant,27,Find product Agree Books Free,11.27,0.1,1.0,10
-Qdrant,28,Find product Certainly Books Better,7.29,0.0,0.0,10
-Qdrant,29,Find product Yard Food Discussion,4.58,0.1,1.0,10
-Qdrant,30,Find product Project Books Amount,4.43,0.1,1.0,10
-Qdrant,31,Find product Director Food Language,20.05,0.1,1.0,10
-Qdrant,32,Find product Kid Home Arrive,4.32,0.1,1.0,10
-Qdrant,33,Find product War Clothing Front,5.3,0.1,1.0,10
-Qdrant,34,Find product Left Food Believe,17.62,0.1,1.0,10
-Qdrant,35,Find product Pass Food Mr,19.41,0.1,1.0,10
-Qdrant,36,Find product Attack Electronics Federal,25.3,0.1,1.0,10
-Qdrant,37,Find product Father Toys Each,8.58,0.1,1.0,10
-Qdrant,38,Find product Second Books Night,16.82,0.1,1.0,10
-Qdrant,39,Find product One Food Begin,5.35,0.1,1.0,10
-Qdrant,40,Find product None Home Attack,7.01,0.1,1.0,10
-Qdrant,41,Find product Statement Toys Card,6.9,0.1,1.0,10
-Qdrant,42,Find product Difficult Clothing Hear,8.1,0.1,1.0,10
-Qdrant,43,Find product Will Books Partner,6.6,0.1,1.0,10
-Qdrant,44,Find product Official Food Specific,7.58,0.1,1.0,10
-Qdrant,45,Find product Lose Electronics Red,8.75,0.1,1.0,10
-Qdrant,46,Find product Food Food Hundred,49.92,0.1,1.0,10
-Qdrant,47,Find product Lay Beauty If,11.03,0.0,0.0,10
-Qdrant,48,Find product Short Books Win,10.55,0.1,1.0,10
-Qdrant,49,Find product Score Electronics Dark,13.95,0.0,0.0,10
-Qdrant,50,Find product Drug Toys Theory,7.35,0.1,1.0,10
-Qdrant,51,Find product Their Clothing Key,13.74,0.0,0.0,10
-Qdrant,52,Show me cheap products under $1000,11.37,0.0,0.0,10
-Qdrant,53,Show me cheap products under $1000,8.99,0.0,0.0,10
-Qdrant,54,Show me cheap products under $1000,5.16,0.0,0.0,10
-Qdrant,55,Show me cheap products under $1000,17.3,0.0,0.0,10
-Qdrant,56,Show me moderately priced products $1000-$2000,7.34,0.0,0.0,10
-Qdrant,57,Show me moderately priced products $1000-$2000,23.43,0.0,0.0,10
-Qdrant,58,Show me moderately priced products $1000-$2000,3.66,0.0,0.0,10
-Qdrant,59,Show me moderately priced products $1000-$2000,6.36,0.0,0.0,10
-Qdrant,60,Show me products priced between $2000-$3000,17.36,0.2,0.0004,10
-Qdrant,61,Show me products priced between $2000-$3000,10.69,0.2,0.0004,10
-Qdrant,62,Show me products priced between $2000-$3000,21.39,0.2,0.0004,10
-Qdrant,63,Show me products priced between $2000-$3000,27.25,0.2,0.0004,10
-Qdrant,64,Show me premium products $3000-$4000,9.09,0.2,0.0004,10
-Qdrant,65,Show me premium products $3000-$4000,29.51,0.2,0.0004,10
-Qdrant,66,Show me premium products $3000-$4000,3.94,0.2,0.0004,10
-Qdrant,67,Show me premium products $3000-$4000,6.42,0.2,0.0004,10
-Qdrant,68,Show me expensive products over $4000,12.69,0.1,0.0002,10
-Qdrant,69,Show me expensive products over $4000,9.09,0.1,0.0002,10
-Qdrant,70,Show me expensive products over $4000,10.64,0.1,0.0002,10
-Qdrant,71,Show me expensive products over $4000,9.73,0.1,0.0002,10
-Qdrant,72,Find low stock products,13.0,0.0,0.0,10
-Qdrant,73,Find low stock products,8.19,0.0,0.0,10
-Qdrant,74,Find low stock products,8.02,0.0,0.0,10
-Qdrant,75,Find medium stock products,7.91,0.4,0.0002,10
-Qdrant,76,Find medium stock products,7.39,0.4,0.0002,10
-Qdrant,77,Find medium stock products,7.84,0.4,0.0002,10
-Qdrant,78,Find high stock products,7.49,0.4,0.0002,10
-Qdrant,79,Find high stock products,7.38,0.4,0.0002,10
-Qdrant,80,Find high stock products,25.06,0.4,0.0002,10
-Qdrant,81,Best deals on products,10.53,0.0,0.0,10
-Qdrant,82,Top rated businesses,6.75,0.0,0.0,10
-Qdrant,83,Affordable options,8.16,0.0,0.0,10
-Qdrant,84,Premium services,5.98,0.0,0.0,10
-Qdrant,85,Budget friendly products,20.59,0.0,0.0,10
-Qdrant,86,High quality items,24.12,0.0,0.0,10
-Qdrant,87,Popular choices,20.65,0.0,0.0,10
-Qdrant,88,Trending products,6.94,0.0,0.0,10
-Qdrant,89,Featured businesses,17.18,0.1,0.025,10
-Qdrant,90,Special offers,18.04,0.0,0.0,10
-Qdrant,91,Best value products,9.94,0.0,0.0,10
-Qdrant,92,Exclusive services,17.97,0.0,0.0,10
-Qdrant,93,Recommended items,5.86,0.0,0.0,10
-Qdrant,94,Customer favorites,6.96,0.0,0.0,10
-Qdrant,95,Top sellers,33.06,0.0,0.0,10
-Qdrant,96,New arrivals,9.06,0.0,0.0,10
-Qdrant,97,Seasonal deals,6.38,0.0,0.0,10
-Qdrant,98,Limited edition,14.53,0.0,0.0,10
-Qdrant,99,Luxury items,6.5,0.0,0.0,10
-Weaviate,0,Find restaurant businesses,67.4,0.0,0.0,10
-Weaviate,1,List all restaurant companies,5.82,0.0,0.0,10
-Weaviate,2,Find technology businesses,17.39,0.0,0.0,10
-Weaviate,3,List all technology companies,8.93,0.0,0.0,10
-Weaviate,4,Find online retail businesses,13.07,0.0,0.0,10
-Weaviate,5,List all online retail companies,7.54,0.0,0.0,10
-Weaviate,6,Find hotel businesses,7.0,0.0,0.0,10
-Weaviate,7,List all hotel companies,4.99,1.0,0.1299,10
-Weaviate,8,Find healthcare businesses,6.51,0.0,0.0,10
-Weaviate,9,List all healthcare companies,4.0,0.0,0.0,10
-Weaviate,10,Find transport businesses,5.0,1.0,0.1205,10
-Weaviate,11,List all transport companies,5.31,0.0,0.0,10
-Weaviate,12,"Information about Parks, Franklin and Jensen",6.4,0.1,1.0,10
-Weaviate,13,Information about Clark Inc,6.1,0.0,0.0,10
-Weaviate,14,Information about Griffin-Turner,6.92,0.0,0.0,10
-Weaviate,15,Information about Adams and Sons,6.46,0.0,0.0,10
-Weaviate,16,Information about Johnson-Thomas,6.4,0.0,0.0,10
-Weaviate,17,Information about Wright-Robinson,7.47,0.0,0.0,10
-Weaviate,18,"Information about Wise, Abbott and Coffey",4.14,0.0,0.0,10
-Weaviate,19,Information about Wright LLC,4.46,0.0,0.0,10
-Weaviate,20,Information about Morgan Inc,3.99,0.1,1.0,10
-Weaviate,21,Information about Casey-Norman,4.01,0.0,0.0,10
-Weaviate,22,Information about Valenzuela PLC,4.31,0.0,0.0,10
-Weaviate,23,Information about Thompson-Lambert,4.12,0.0,0.0,10
-Weaviate,24,Information about James Ltd,3.12,0.1,1.0,10
-Weaviate,25,"Information about Horne, Wilson and Carey",4.5,0.1,1.0,10
-Weaviate,26,Information about Vaughn PLC,5.01,0.0,0.0,10
-Weaviate,27,Find product Agree Books Free,5.31,0.1,1.0,10
-Weaviate,28,Find product Certainly Books Better,5.0,0.0,0.0,10
-Weaviate,29,Find product Yard Food Discussion,6.84,0.1,1.0,10
-Weaviate,30,Find product Project Books Amount,6.6,0.1,1.0,10
-Weaviate,31,Find product Director Food Language,6.24,0.1,1.0,10
-Weaviate,32,Find product Kid Home Arrive,4.34,0.1,1.0,10
-Weaviate,33,Find product War Clothing Front,6.65,0.1,1.0,10
-Weaviate,34,Find product Left Food Believe,4.67,0.1,1.0,10
-Weaviate,35,Find product Pass Food Mr,5.0,0.1,1.0,10
-Weaviate,36,Find product Attack Electronics Federal,5.06,0.1,1.0,10
-Weaviate,37,Find product Father Toys Each,6.92,0.1,1.0,10
-Weaviate,38,Find product Second Books Night,5.08,0.1,1.0,10
-Weaviate,39,Find product One Food Begin,5.17,0.1,1.0,10
-Weaviate,40,Find product None Home Attack,9.61,0.1,1.0,10
-Weaviate,41,Find product Statement Toys Card,8.7,0.1,1.0,10
-Weaviate,42,Find product Difficult Clothing Hear,5.68,0.1,1.0,10
-Weaviate,43,Find product Will Books Partner,5.53,0.1,1.0,10
-Weaviate,44,Find product Official Food Specific,8.0,0.1,1.0,10
-Weaviate,45,Find product Lose Electronics Red,8.78,0.1,1.0,10
-Weaviate,46,Find product Food Food Hundred,8.01,0.1,1.0,10
-Weaviate,47,Find product Lay Beauty If,11.39,0.0,0.0,10
-Weaviate,48,Find product Short Books Win,7.35,0.1,1.0,10
-Weaviate,49,Find product Score Electronics Dark,6.29,0.1,1.0,10
-Weaviate,50,Find product Drug Toys Theory,5.78,0.1,1.0,10
-Weaviate,51,Find product Their Clothing Key,7.13,0.1,1.0,10
-Weaviate,52,Show me cheap products under $1000,5.99,0.1,0.0002,10
-Weaviate,53,Show me cheap products under $1000,4.0,0.1,0.0002,10
-Weaviate,54,Show me cheap products under $1000,4.84,0.1,0.0002,10
-Weaviate,55,Show me cheap products under $1000,5.23,0.1,0.0002,10
-Weaviate,56,Show me moderately priced products $1000-$2000,5.32,0.3,0.0006,10
-Weaviate,57,Show me moderately priced products $1000-$2000,5.0,0.3,0.0006,10
-Weaviate,58,Show me moderately priced products $1000-$2000,4.09,0.3,0.0006,10
-Weaviate,59,Show me moderately priced products $1000-$2000,4.61,0.3,0.0006,10
-Weaviate,60,Show me products priced between $2000-$3000,6.19,0.3,0.0006,10
-Weaviate,61,Show me products priced between $2000-$3000,5.66,0.3,0.0006,10
-Weaviate,62,Show me products priced between $2000-$3000,4.0,0.3,0.0006,10
-Weaviate,63,Show me products priced between $2000-$3000,4.99,0.3,0.0006,10
-Weaviate,64,Show me premium products $3000-$4000,7.98,0.1,0.0002,10
-Weaviate,65,Show me premium products $3000-$4000,5.5,0.1,0.0002,10
-Weaviate,66,Show me premium products $3000-$4000,3.43,0.1,0.0002,10
-Weaviate,67,Show me premium products $3000-$4000,4.36,0.1,0.0002,10
-Weaviate,68,Show me expensive products over $4000,7.4,0.0,0.0,10
-Weaviate,69,Show me expensive products over $4000,7.73,0.0,0.0,10
-Weaviate,70,Show me expensive products over $4000,6.05,0.0,0.0,10
-Weaviate,71,Show me expensive products over $4000,5.04,0.0,0.0,10
-Weaviate,72,Find low stock products,7.21,0.1,0.0002,10
-Weaviate,73,Find low stock products,6.6,0.1,0.0002,10
-Weaviate,74,Find low stock products,6.23,0.1,0.0002,10
-Weaviate,75,Find medium stock products,6.15,0.4,0.0002,10
-Weaviate,76,Find medium stock products,4.55,0.4,0.0002,10
-Weaviate,77,Find medium stock products,5.73,0.4,0.0002,10
-Weaviate,78,Find high stock products,7.93,0.6,0.0002,10
-Weaviate,79,Find high stock products,6.66,0.6,0.0002,10
-Weaviate,80,Find high stock products,4.91,0.6,0.0002,10
-Weaviate,81,Best deals on products,5.94,0.0,0.0,10
-Weaviate,82,Top rated businesses,5.63,0.0,0.0,10
-Weaviate,83,Affordable options,8.09,0.0,0.0,10
-Weaviate,84,Premium services,6.11,0.0,0.0,10
-Weaviate,85,Budget friendly products,5.31,0.0,0.0,10
-Weaviate,86,High quality items,6.71,0.0,0.0,10
-Weaviate,87,Popular choices,7.0,0.0,0.0,10
-Weaviate,88,Trending products,5.51,0.0,0.0,10
-Weaviate,89,Featured businesses,5.05,0.1,0.025,10
-Weaviate,90,Special offers,5.95,0.0,0.0,10
-Weaviate,91,Best value products,5.49,0.0,0.0,10
-Weaviate,92,Exclusive services,5.65,0.0,0.0,10
-Weaviate,93,Recommended items,5.99,0.0,0.0,10
-Weaviate,94,Customer favorites,6.21,0.0,0.0,10
-Weaviate,95,Top sellers,6.72,0.0,0.0,10
-Weaviate,96,New arrivals,5.4,0.0,0.0,10
-Weaviate,97,Seasonal deals,5.43,0.0,0.0,10
-Weaviate,98,Limited edition,5.23,0.0,0.0,10
-Weaviate,99,Luxury items,5.03,0.0,0.0,10
-ChromaDB,0,Find restaurant businesses,110.47,1.0,0.1299,10
-ChromaDB,1,List all restaurant companies,12.64,0.0,0.0,10
-ChromaDB,2,Find technology businesses,62.28,0.0,0.0,10
-ChromaDB,3,List all technology companies,50.92,0.9,0.0978,10
-ChromaDB,4,Find online retail businesses,70.0,1.0,0.1235,10
-ChromaDB,5,List all online retail companies,50.88,1.0,0.1235,10
-ChromaDB,6,Find hotel businesses,61.05,0.0,0.0,10
-ChromaDB,7,List all hotel companies,52.91,1.0,0.1299,10
-ChromaDB,8,Find healthcare businesses,52.34,1.0,0.1111,10
-ChromaDB,9,List all healthcare companies,59.06,1.0,0.1111,10
-ChromaDB,10,Find transport businesses,53.02,1.0,0.1205,10
-ChromaDB,11,List all transport companies,58.29,1.0,0.1205,10
-ChromaDB,12,"Information about Parks, Franklin and Jensen",49.39,0.1,1.0,10
-ChromaDB,13,Information about Clark Inc,58.16,0.1,1.0,10
-ChromaDB,14,Information about Griffin-Turner,53.31,0.1,1.0,10
-ChromaDB,15,Information about Adams and Sons,51.34,0.1,1.0,10
-ChromaDB,16,Information about Johnson-Thomas,53.04,0.1,1.0,10
-ChromaDB,17,Information about Wright-Robinson,58.91,0.1,1.0,10
-ChromaDB,18,"Information about Wise, Abbott and Coffey",54.36,0.0,0.0,10
-ChromaDB,19,Information about Wright LLC,48.24,0.1,1.0,10
-ChromaDB,20,Information about Morgan Inc,54.12,0.0,0.0,10
-ChromaDB,21,Information about Casey-Norman,50.8,0.0,0.0,10
-ChromaDB,22,Information about Valenzuela PLC,65.43,0.0,0.0,10
-ChromaDB,23,Information about Thompson-Lambert,52.26,0.1,1.0,10
-ChromaDB,24,Information about James Ltd,57.49,0.1,1.0,10
-ChromaDB,25,"Information about Horne, Wilson and Carey",57.32,0.1,1.0,10
-ChromaDB,26,Information about Vaughn PLC,56.68,0.1,1.0,10
-ChromaDB,27,Find product Agree Books Free,59.15,0.1,1.0,10
-ChromaDB,28,Find product Certainly Books Better,70.09,0.0,0.0,10
-ChromaDB,29,Find product Yard Food Discussion,62.84,0.1,1.0,10
-ChromaDB,30,Find product Project Books Amount,52.86,0.1,1.0,10
-ChromaDB,31,Find product Director Food Language,54.48,0.1,1.0,10
-ChromaDB,32,Find product Kid Home Arrive,58.43,0.1,1.0,10
-ChromaDB,33,Find product War Clothing Front,52.8,0.1,1.0,10
-ChromaDB,34,Find product Left Food Believe,58.55,0.1,1.0,10
-ChromaDB,35,Find product Pass Food Mr,57.05,0.1,1.0,10
-ChromaDB,36,Find product Attack Electronics Federal,50.54,0.1,1.0,10
-ChromaDB,37,Find product Father Toys Each,55.3,0.1,1.0,10
-ChromaDB,38,Find product Second Books Night,58.0,0.1,1.0,10
-ChromaDB,39,Find product One Food Begin,50.82,0.1,1.0,10
-ChromaDB,40,Find product None Home Attack,56.55,0.1,1.0,10
-ChromaDB,41,Find product Statement Toys Card,54.2,0.1,1.0,10
-ChromaDB,42,Find product Difficult Clothing Hear,58.49,0.1,1.0,10
-ChromaDB,43,Find product Will Books Partner,59.99,0.1,1.0,10
-ChromaDB,44,Find product Official Food Specific,54.89,0.1,1.0,10
-ChromaDB,45,Find product Lose Electronics Red,72.36,0.1,1.0,10
-ChromaDB,46,Find product Food Food Hundred,58.76,0.1,1.0,10
-ChromaDB,47,Find product Lay Beauty If,54.86,0.0,0.0,10
-ChromaDB,48,Find product Short Books Win,56.47,0.1,1.0,10
-ChromaDB,49,Find product Score Electronics Dark,57.81,0.1,1.0,10
-ChromaDB,50,Find product Drug Toys Theory,49.72,0.1,1.0,10
-ChromaDB,51,Find product Their Clothing Key,63.01,0.1,1.0,10
-ChromaDB,52,Show me cheap products under $1000,50.37,0.1,0.0002,10
-ChromaDB,53,Show me cheap products under $1000,53.72,0.1,0.0002,10
-ChromaDB,54,Show me cheap products under $1000,53.36,0.1,0.0002,10
-ChromaDB,55,Show me cheap products under $1000,56.07,0.1,0.0002,10
-ChromaDB,56,Show me moderately priced products $1000-$2000,58.44,0.2,0.0004,10
-ChromaDB,57,Show me moderately priced products $1000-$2000,50.96,0.2,0.0004,10
-ChromaDB,58,Show me moderately priced products $1000-$2000,50.54,0.2,0.0004,10
-ChromaDB,59,Show me moderately priced products $1000-$2000,52.25,0.2,0.0004,10
-ChromaDB,60,Show me products priced between $2000-$3000,63.21,0.4,0.0008,10
-ChromaDB,61,Show me products priced between $2000-$3000,48.62,0.4,0.0008,10
-ChromaDB,62,Show me products priced between $2000-$3000,56.75,0.4,0.0008,10
-ChromaDB,63,Show me products priced between $2000-$3000,55.7,0.4,0.0008,10
-ChromaDB,64,Show me premium products $3000-$4000,51.79,0.3,0.0006,10
-ChromaDB,65,Show me premium products $3000-$4000,56.45,0.3,0.0006,10
-ChromaDB,66,Show me premium products $3000-$4000,60.09,0.3,0.0006,10
-ChromaDB,67,Show me premium products $3000-$4000,50.25,0.3,0.0006,10
-ChromaDB,68,Show me expensive products over $4000,58.51,0.1,0.0002,10
-ChromaDB,69,Show me expensive products over $4000,51.13,0.1,0.0002,10
-ChromaDB,70,Show me expensive products over $4000,50.45,0.1,0.0002,10
-ChromaDB,71,Show me expensive products over $4000,53.82,0.1,0.0002,10
-ChromaDB,72,Find low stock products,54.39,0.1,0.0002,10
-ChromaDB,73,Find low stock products,52.99,0.1,0.0002,10
-ChromaDB,74,Find low stock products,63.1,0.1,0.0002,10
-ChromaDB,75,Find medium stock products,49.03,0.4,0.0002,10
-ChromaDB,76,Find medium stock products,57.12,0.4,0.0002,10
-ChromaDB,77,Find medium stock products,53.14,0.4,0.0002,10
-ChromaDB,78,Find high stock products,61.41,0.2,0.0001,10
-ChromaDB,79,Find high stock products,57.6,0.2,0.0001,10
-ChromaDB,80,Find high stock products,52.99,0.2,0.0001,10
-ChromaDB,81,Best deals on products,49.43,0.0,0.0,10
-ChromaDB,82,Top rated businesses,51.64,0.2,0.05,10
-ChromaDB,83,Affordable options,63.45,0.0,0.0,10
-ChromaDB,84,Premium services,56.39,0.0,0.0,10
-ChromaDB,85,Budget friendly products,53.99,0.0,0.0,10
-ChromaDB,86,High quality items,58.77,0.0,0.0,10
-ChromaDB,87,Popular choices,53.85,0.0,0.0,10
-ChromaDB,88,Trending products,52.35,0.0,0.0,10
-ChromaDB,89,Featured businesses,57.61,0.0,0.0,10
-ChromaDB,90,Special offers,52.28,0.0,0.0,10
-ChromaDB,91,Best value products,63.74,0.0,0.0,10
-ChromaDB,92,Exclusive services,65.56,0.0,0.0,10
-ChromaDB,93,Recommended items,71.65,0.0,0.0,10
-ChromaDB,94,Customer favorites,57.46,0.0,0.0,10
-ChromaDB,95,Top sellers,63.28,0.0,0.0,10
-ChromaDB,96,New arrivals,49.33,0.0,0.0,10
-ChromaDB,97,Seasonal deals,50.21,0.0,0.0,10
-ChromaDB,98,Limited edition,59.14,0.0,0.0,10
-ChromaDB,99,Luxury items,50.44,0.0,0.0,10
+Qdrant,0,Find restaurant businesses,27.87,1.0,0.1299,10
+Qdrant,1,List all restaurant companies,15.07,0.6,0.0779,10
+Qdrant,2,Find technology businesses,17.81,1.0,0.1087,10
+Qdrant,3,List all technology companies,12.59,0.9,0.0978,10
+Qdrant,4,Find online retail businesses,13.51,1.0,0.1235,10
+Qdrant,5,List all online retail companies,34.58,1.0,0.1235,10
+Qdrant,6,Find hotel businesses,12.17,0.7,0.0909,10
+Qdrant,7,List all hotel companies,6.0,1.0,0.1299,10
+Qdrant,8,Find healthcare businesses,8.89,1.0,0.1111,10
+Qdrant,9,List all healthcare companies,26.72,1.0,0.1111,10
+Qdrant,10,Find transport businesses,7.22,1.0,0.1205,10
+Qdrant,11,List all transport companies,8.5,1.0,0.1205,10
+Qdrant,12,"Information about Parks, Franklin and Jensen",7.98,0.1,1.0,10
+Qdrant,13,Information about Clark Inc,7.24,0.1,1.0,10
+Qdrant,14,Information about Griffin-Turner,7.04,0.1,1.0,10
+Qdrant,15,Information about Adams and Sons,6.73,0.1,1.0,10
+Qdrant,16,Information about Johnson-Thomas,23.16,0.1,1.0,10
+Qdrant,17,Information about Wright-Robinson,7.05,0.0,0.0,10
+Qdrant,18,"Information about Wise, Abbott and Coffey",7.51,0.1,1.0,10
+Qdrant,19,Information about Wright LLC,8.32,0.1,1.0,10
+Qdrant,20,Information about Morgan Inc,8.67,0.1,1.0,10
+Qdrant,21,Information about Casey-Norman,9.03,0.1,1.0,10
+Qdrant,22,Information about Valenzuela PLC,15.04,0.1,1.0,10
+Qdrant,23,Information about Thompson-Lambert,12.56,0.1,1.0,10
+Qdrant,24,Information about James Ltd,15.06,0.1,1.0,10
+Qdrant,25,"Information about Horne, Wilson and Carey",19.26,0.0,0.0,10
+Qdrant,26,Information about Vaughn PLC,9.73,0.0,0.0,10
+Qdrant,27,Find product Agree Books Free,8.56,0.1,1.0,10
+Qdrant,28,Find product Certainly Books Better,8.47,0.0,0.0,10
+Qdrant,29,Find product Yard Food Discussion,10.77,0.1,1.0,10
+Qdrant,30,Find product Project Books Amount,8.6,0.1,1.0,10
+Qdrant,31,Find product Director Food Language,7.86,0.1,1.0,10
+Qdrant,32,Find product Kid Home Arrive,7.06,0.1,1.0,10
+Qdrant,33,Find product War Clothing Front,6.1,0.1,1.0,10
+Qdrant,34,Find product Left Food Believe,24.68,0.1,1.0,10
+Qdrant,35,Find product Pass Food Mr,22.88,0.1,1.0,10
+Qdrant,36,Find product Attack Electronics Federal,24.12,0.1,1.0,10
+Qdrant,37,Find product Father Toys Each,7.26,0.1,1.0,10
+Qdrant,38,Find product Second Books Night,30.84,0.1,1.0,10
+Qdrant,39,Find product One Food Begin,7.1,0.1,1.0,10
+Qdrant,40,Find product None Home Attack,23.53,0.1,1.0,10
+Qdrant,41,Find product Statement Toys Card,8.47,0.1,1.0,10
+Qdrant,42,Find product Difficult Clothing Hear,6.52,0.1,1.0,10
+Qdrant,43,Find product Will Books Partner,5.36,0.1,1.0,10
+Qdrant,44,Find product Official Food Specific,6.05,0.1,1.0,10
+Qdrant,45,Find product Lose Electronics Red,28.76,0.1,1.0,10
+Qdrant,46,Find product Food Food Hundred,18.58,0.1,1.0,10
+Qdrant,47,Find product Lay Beauty If,6.25,0.0,0.0,10
+Qdrant,48,Find product Short Books Win,7.01,0.1,1.0,10
+Qdrant,49,Find product Score Electronics Dark,30.57,0.1,1.0,10
+Qdrant,50,Find product Drug Toys Theory,23.48,0.1,1.0,10
+Qdrant,51,Find product Their Clothing Key,6.12,0.1,1.0,10
+Qdrant,52,Show me cheap products under $1000,7.32,0.1,0.0002,10
+Qdrant,53,Show me cheap products under $1000,18.77,0.1,0.0002,10
+Qdrant,54,Show me cheap products under $1000,8.54,0.1,0.0002,10
+Qdrant,55,Show me cheap products under $1000,10.29,0.1,0.0002,10
+Qdrant,56,Show me moderately priced products $1000-$2000,12.29,0.2,0.0004,10
+Qdrant,57,Show me moderately priced products $1000-$2000,8.11,0.2,0.0004,10
+Qdrant,58,Show me moderately priced products $1000-$2000,8.53,0.2,0.0004,10
+Qdrant,59,Show me moderately priced products $1000-$2000,8.85,0.2,0.0004,10
+Qdrant,60,Show me products priced between $2000-$3000,26.66,0.3,0.0006,10
+Qdrant,61,Show me products priced between $2000-$3000,26.62,0.3,0.0006,10
+Qdrant,62,Show me products priced between $2000-$3000,7.27,0.3,0.0006,10
+Qdrant,63,Show me products priced between $2000-$3000,17.52,0.3,0.0006,10
+Qdrant,64,Show me premium products $3000-$4000,9.23,0.2,0.0004,10
+Qdrant,65,Show me premium products $3000-$4000,9.58,0.2,0.0004,10
+Qdrant,66,Show me premium products $3000-$4000,12.4,0.2,0.0004,10
+Qdrant,67,Show me premium products $3000-$4000,32.7,0.2,0.0004,10
+Qdrant,68,Show me expensive products over $4000,7.01,0.1,0.0002,10
+Qdrant,69,Show me expensive products over $4000,9.53,0.1,0.0002,10
+Qdrant,70,Show me expensive products over $4000,8.52,0.1,0.0002,10
+Qdrant,71,Show me expensive products over $4000,9.45,0.1,0.0002,10
+Qdrant,72,Find low stock products,10.24,0.0,0.0,10
+Qdrant,73,Find low stock products,15.22,0.0,0.0,10
+Qdrant,74,Find low stock products,11.46,0.0,0.0,10
+Qdrant,75,Find medium stock products,11.15,0.3,0.0001,10
+Qdrant,76,Find medium stock products,10.84,0.3,0.0001,10
+Qdrant,77,Find medium stock products,10.28,0.3,0.0001,10
+Qdrant,78,Find high stock products,8.85,0.4,0.0002,10
+Qdrant,79,Find high stock products,11.43,0.4,0.0002,10
+Qdrant,80,Find high stock products,8.57,0.4,0.0002,10
+Qdrant,81,Best deals on products,9.56,0.0,0.0,10
+Qdrant,82,Top rated businesses,8.53,0.2,0.05,10
+Qdrant,83,Affordable options,26.59,0.0,0.0,10
+Qdrant,84,Premium services,9.57,0.0,0.0,10
+Qdrant,85,Budget friendly products,8.34,0.0,0.0,10
+Qdrant,86,High quality items,9.96,0.0,0.0,10
+Qdrant,87,Popular choices,9.19,0.0,0.0,10
+Qdrant,88,Trending products,9.3,0.0,0.0,10
+Qdrant,89,Featured businesses,9.52,0.1,0.025,10
+Qdrant,90,Special offers,8.82,0.0,0.0,10
+Qdrant,91,Best value products,8.17,0.0,0.0,10
+Qdrant,92,Exclusive services,10.18,0.0,0.0,10
+Qdrant,93,Recommended items,11.55,0.0,0.0,10
+Qdrant,94,Customer favorites,10.52,0.0,0.0,10
+Qdrant,95,Top sellers,9.32,0.0,0.0,10
+Qdrant,96,New arrivals,12.27,0.0,0.0,10
+Qdrant,97,Seasonal deals,9.85,0.0,0.0,10
+Qdrant,98,Limited edition,9.29,0.0,0.0,10
+Qdrant,99,Luxury items,8.64,0.0,0.0,10
+Weaviate,0,Find restaurant businesses,39.27,0.0,0.0,10
+Weaviate,1,List all restaurant companies,8.96,0.0,0.0,10
+Weaviate,2,Find technology businesses,9.05,1.0,0.1087,10
+Weaviate,3,List all technology companies,14.37,0.0,0.0,10
+Weaviate,4,Find online retail businesses,11.24,1.0,0.1235,10
+Weaviate,5,List all online retail companies,19.53,0.0,0.0,10
+Weaviate,6,Find hotel businesses,8.1,0.0,0.0,10
+Weaviate,7,List all hotel companies,10.26,0.0,0.0,10
+Weaviate,8,Find healthcare businesses,10.91,0.0,0.0,10
+Weaviate,9,List all healthcare companies,7.09,0.0,0.0,10
+Weaviate,10,Find transport businesses,8.22,1.0,0.1205,10
+Weaviate,11,List all transport companies,6.09,0.0,0.0,10
+Weaviate,12,"Information about Parks, Franklin and Jensen",7.0,0.1,1.0,10
+Weaviate,13,Information about Clark Inc,9.65,0.0,0.0,10
+Weaviate,14,Information about Griffin-Turner,8.88,0.0,0.0,10
+Weaviate,15,Information about Adams and Sons,8.52,0.0,0.0,10
+Weaviate,16,Information about Johnson-Thomas,5.93,0.0,0.0,10
+Weaviate,17,Information about Wright-Robinson,8.0,0.0,0.0,10
+Weaviate,18,"Information about Wise, Abbott and Coffey",6.82,0.0,0.0,10
+Weaviate,19,Information about Wright LLC,6.38,0.0,0.0,10
+Weaviate,20,Information about Morgan Inc,9.07,0.0,0.0,10
+Weaviate,21,Information about Casey-Norman,7.53,0.0,0.0,10
+Weaviate,22,Information about Valenzuela PLC,7.51,0.0,0.0,10
+Weaviate,23,Information about Thompson-Lambert,7.53,0.0,0.0,10
+Weaviate,24,Information about James Ltd,7.31,0.0,0.0,10
+Weaviate,25,"Information about Horne, Wilson and Carey",6.15,0.1,1.0,10
+Weaviate,26,Information about Vaughn PLC,9.79,0.0,0.0,10
+Weaviate,27,Find product Agree Books Free,7.53,0.1,1.0,10
+Weaviate,28,Find product Certainly Books Better,11.14,0.0,0.0,10
+Weaviate,29,Find product Yard Food Discussion,10.81,0.1,1.0,10
+Weaviate,30,Find product Project Books Amount,9.43,0.1,1.0,10
+Weaviate,31,Find product Director Food Language,9.88,0.1,1.0,10
+Weaviate,32,Find product Kid Home Arrive,10.42,0.1,1.0,10
+Weaviate,33,Find product War Clothing Front,13.03,0.1,1.0,10
+Weaviate,34,Find product Left Food Believe,9.32,0.1,1.0,10
+Weaviate,35,Find product Pass Food Mr,8.53,0.1,1.0,10
+Weaviate,36,Find product Attack Electronics Federal,7.56,0.1,1.0,10
+Weaviate,37,Find product Father Toys Each,9.48,0.1,1.0,10
+Weaviate,38,Find product Second Books Night,7.76,0.1,1.0,10
+Weaviate,39,Find product One Food Begin,6.77,0.1,1.0,10
+Weaviate,40,Find product None Home Attack,9.94,0.1,1.0,10
+Weaviate,41,Find product Statement Toys Card,8.48,0.1,1.0,10
+Weaviate,42,Find product Difficult Clothing Hear,10.62,0.1,1.0,10
+Weaviate,43,Find product Will Books Partner,7.42,0.1,1.0,10
+Weaviate,44,Find product Official Food Specific,7.77,0.1,1.0,10
+Weaviate,45,Find product Lose Electronics Red,8.58,0.1,1.0,10
+Weaviate,46,Find product Food Food Hundred,7.17,0.1,1.0,10
+Weaviate,47,Find product Lay Beauty If,7.45,0.0,0.0,10
+Weaviate,48,Find product Short Books Win,5.48,0.1,1.0,10
+Weaviate,49,Find product Score Electronics Dark,7.27,0.1,1.0,10
+Weaviate,50,Find product Drug Toys Theory,7.42,0.1,1.0,10
+Weaviate,51,Find product Their Clothing Key,6.92,0.1,1.0,10
+Weaviate,52,Show me cheap products under $1000,5.65,0.1,0.0002,10
+Weaviate,53,Show me cheap products under $1000,5.53,0.1,0.0002,10
+Weaviate,54,Show me cheap products under $1000,6.51,0.1,0.0002,10
+Weaviate,55,Show me cheap products under $1000,7.4,0.1,0.0002,10
+Weaviate,56,Show me moderately priced products $1000-$2000,10.78,0.2,0.0004,10
+Weaviate,57,Show me moderately priced products $1000-$2000,7.47,0.2,0.0004,10
+Weaviate,58,Show me moderately priced products $1000-$2000,6.63,0.2,0.0004,10
+Weaviate,59,Show me moderately priced products $1000-$2000,7.32,0.2,0.0004,10
+Weaviate,60,Show me products priced between $2000-$3000,5.61,0.3,0.0006,10
+Weaviate,61,Show me products priced between $2000-$3000,6.75,0.3,0.0006,10
+Weaviate,62,Show me products priced between $2000-$3000,6.08,0.3,0.0006,10
+Weaviate,63,Show me products priced between $2000-$3000,6.12,0.3,0.0006,10
+Weaviate,64,Show me premium products $3000-$4000,9.3,0.3,0.0006,10
+Weaviate,65,Show me premium products $3000-$4000,9.11,0.3,0.0006,10
+Weaviate,66,Show me premium products $3000-$4000,6.95,0.3,0.0006,10
+Weaviate,67,Show me premium products $3000-$4000,7.17,0.3,0.0006,10
+Weaviate,68,Show me expensive products over $4000,5.93,0.1,0.0002,10
+Weaviate,69,Show me expensive products over $4000,5.89,0.1,0.0002,10
+Weaviate,70,Show me expensive products over $4000,6.43,0.1,0.0002,10
+Weaviate,71,Show me expensive products over $4000,7.45,0.1,0.0002,10
+Weaviate,72,Find low stock products,9.05,0.1,0.0002,10
+Weaviate,73,Find low stock products,10.46,0.1,0.0002,10
+Weaviate,74,Find low stock products,6.92,0.1,0.0002,10
+Weaviate,75,Find medium stock products,6.24,0.5,0.0002,10
+Weaviate,76,Find medium stock products,6.19,0.5,0.0002,10
+Weaviate,77,Find medium stock products,4.69,0.5,0.0002,10
+Weaviate,78,Find high stock products,5.93,0.3,0.0001,10
+Weaviate,79,Find high stock products,5.23,0.3,0.0001,10
+Weaviate,80,Find high stock products,6.56,0.3,0.0001,10
+Weaviate,81,Best deals on products,7.0,0.0,0.0,10
+Weaviate,82,Top rated businesses,7.0,0.0,0.0,10
+Weaviate,83,Affordable options,8.01,0.0,0.0,10
+Weaviate,84,Premium services,6.47,0.0,0.0,10
+Weaviate,85,Budget friendly products,7.69,0.0,0.0,10
+Weaviate,86,High quality items,6.35,0.0,0.0,10
+Weaviate,87,Popular choices,7.55,0.0,0.0,10
+Weaviate,88,Trending products,5.69,0.0,0.0,10
+Weaviate,89,Featured businesses,7.33,0.0,0.0,10
+Weaviate,90,Special offers,5.3,0.0,0.0,10
+Weaviate,91,Best value products,6.0,0.0,0.0,10
+Weaviate,92,Exclusive services,6.46,0.0,0.0,10
+Weaviate,93,Recommended items,7.26,0.0,0.0,10
+Weaviate,94,Customer favorites,7.87,0.0,0.0,10
+Weaviate,95,Top sellers,5.82,0.0,0.0,10
+Weaviate,96,New arrivals,5.51,0.0,0.0,10
+Weaviate,97,Seasonal deals,6.81,0.0,0.0,10
+Weaviate,98,Limited edition,5.83,0.0,0.0,10
+Weaviate,99,Luxury items,7.52,0.0,0.0,10
+ChromaDB,0,Find restaurant businesses,212.91,0.0,0.0,10
+ChromaDB,1,List all restaurant companies,13.07,0.0,0.0,10
+ChromaDB,2,Find technology businesses,66.65,0.0,0.0,10
+ChromaDB,3,List all technology companies,67.28,0.0,0.0,10
+ChromaDB,4,Find online retail businesses,60.41,1.0,0.1235,10
+ChromaDB,5,List all online retail companies,65.79,1.0,0.1235,10
+ChromaDB,6,Find hotel businesses,59.87,1.0,0.1299,10
+ChromaDB,7,List all hotel companies,63.33,1.0,0.1299,10
+ChromaDB,8,Find healthcare businesses,61.18,1.0,0.1111,10
+ChromaDB,9,List all healthcare companies,75.81,1.0,0.1111,10
+ChromaDB,10,Find transport businesses,65.87,1.0,0.1205,10
+ChromaDB,11,List all transport companies,59.8,1.0,0.1205,10
+ChromaDB,12,"Information about Parks, Franklin and Jensen",62.37,0.1,1.0,10
+ChromaDB,13,Information about Clark Inc,48.81,0.1,1.0,10
+ChromaDB,14,Information about Griffin-Turner,60.34,0.0,0.0,10
+ChromaDB,15,Information about Adams and Sons,63.17,0.0,0.0,10
+ChromaDB,16,Information about Johnson-Thomas,52.26,0.1,1.0,10
+ChromaDB,17,Information about Wright-Robinson,54.45,0.0,0.0,10
+ChromaDB,18,"Information about Wise, Abbott and Coffey",52.73,0.0,0.0,10
+ChromaDB,19,Information about Wright LLC,54.34,0.1,1.0,10
+ChromaDB,20,Information about Morgan Inc,69.85,0.1,1.0,10
+ChromaDB,21,Information about Casey-Norman,51.39,0.0,0.0,10
+ChromaDB,22,Information about Valenzuela PLC,50.02,0.1,1.0,10
+ChromaDB,23,Information about Thompson-Lambert,71.46,0.0,0.0,10
+ChromaDB,24,Information about James Ltd,57.37,0.1,1.0,10
+ChromaDB,25,"Information about Horne, Wilson and Carey",65.35,0.0,0.0,10
+ChromaDB,26,Information about Vaughn PLC,70.98,0.1,1.0,10
+ChromaDB,27,Find product Agree Books Free,63.98,0.1,1.0,10
+ChromaDB,28,Find product Certainly Books Better,75.7,0.0,0.0,10
+ChromaDB,29,Find product Yard Food Discussion,66.01,0.1,1.0,10
+ChromaDB,30,Find product Project Books Amount,64.32,0.1,1.0,10
+ChromaDB,31,Find product Director Food Language,58.59,0.1,1.0,10
+ChromaDB,32,Find product Kid Home Arrive,59.01,0.1,1.0,10
+ChromaDB,33,Find product War Clothing Front,53.83,0.1,1.0,10
+ChromaDB,34,Find product Left Food Believe,62.45,0.1,1.0,10
+ChromaDB,35,Find product Pass Food Mr,58.75,0.1,1.0,10
+ChromaDB,36,Find product Attack Electronics Federal,61.58,0.1,1.0,10
+ChromaDB,37,Find product Father Toys Each,59.6,0.1,1.0,10
+ChromaDB,38,Find product Second Books Night,53.79,0.1,1.0,10
+ChromaDB,39,Find product One Food Begin,59.34,0.1,1.0,10
+ChromaDB,40,Find product None Home Attack,65.96,0.1,1.0,10
+ChromaDB,41,Find product Statement Toys Card,54.54,0.1,1.0,10
+ChromaDB,42,Find product Difficult Clothing Hear,62.53,0.1,1.0,10
+ChromaDB,43,Find product Will Books Partner,56.22,0.1,1.0,10
+ChromaDB,44,Find product Official Food Specific,66.55,0.1,1.0,10
+ChromaDB,45,Find product Lose Electronics Red,56.19,0.1,1.0,10
+ChromaDB,46,Find product Food Food Hundred,56.52,0.1,1.0,10
+ChromaDB,47,Find product Lay Beauty If,62.29,0.0,0.0,10
+ChromaDB,48,Find product Short Books Win,55.27,0.1,1.0,10
+ChromaDB,49,Find product Score Electronics Dark,50.94,0.1,1.0,10
+ChromaDB,50,Find product Drug Toys Theory,59.86,0.1,1.0,10
+ChromaDB,51,Find product Their Clothing Key,52.94,0.1,1.0,10
+ChromaDB,52,Show me cheap products under $1000,50.77,0.1,0.0002,10
+ChromaDB,53,Show me cheap products under $1000,57.09,0.1,0.0002,10
+ChromaDB,54,Show me cheap products under $1000,57.71,0.1,0.0002,10
+ChromaDB,55,Show me cheap products under $1000,51.0,0.1,0.0002,10
+ChromaDB,56,Show me moderately priced products $1000-$2000,58.81,0.3,0.0006,10
+ChromaDB,57,Show me moderately priced products $1000-$2000,59.39,0.3,0.0006,10
+ChromaDB,58,Show me moderately priced products $1000-$2000,47.88,0.3,0.0006,10
+ChromaDB,59,Show me moderately priced products $1000-$2000,61.32,0.3,0.0006,10
+ChromaDB,60,Show me products priced between $2000-$3000,58.32,0.4,0.0008,10
+ChromaDB,61,Show me products priced between $2000-$3000,61.95,0.4,0.0008,10
+ChromaDB,62,Show me products priced between $2000-$3000,53.68,0.4,0.0008,10
+ChromaDB,63,Show me products priced between $2000-$3000,48.94,0.4,0.0008,10
+ChromaDB,64,Show me premium products $3000-$4000,51.99,0.1,0.0002,10
+ChromaDB,65,Show me premium products $3000-$4000,66.57,0.1,0.0002,10
+ChromaDB,66,Show me premium products $3000-$4000,54.96,0.1,0.0002,10
+ChromaDB,67,Show me premium products $3000-$4000,56.03,0.1,0.0002,10
+ChromaDB,68,Show me expensive products over $4000,57.02,0.1,0.0002,10
+ChromaDB,69,Show me expensive products over $4000,54.96,0.1,0.0002,10
+ChromaDB,70,Show me expensive products over $4000,55.66,0.1,0.0002,10
+ChromaDB,71,Show me expensive products over $4000,52.15,0.1,0.0002,10
+ChromaDB,72,Find low stock products,55.09,0.1,0.0002,10
+ChromaDB,73,Find low stock products,52.0,0.1,0.0002,10
+ChromaDB,74,Find low stock products,61.98,0.1,0.0002,10
+ChromaDB,75,Find medium stock products,67.8,0.4,0.0002,10
+ChromaDB,76,Find medium stock products,49.26,0.4,0.0002,10
+ChromaDB,77,Find medium stock products,52.77,0.4,0.0002,10
+ChromaDB,78,Find high stock products,58.19,0.2,0.0001,10
+ChromaDB,79,Find high stock products,52.01,0.2,0.0001,10
+ChromaDB,80,Find high stock products,55.9,0.2,0.0001,10
+ChromaDB,81,Best deals on products,62.8,0.0,0.0,10
+ChromaDB,82,Top rated businesses,55.85,0.2,0.05,10
+ChromaDB,83,Affordable options,59.39,0.0,0.0,10
+ChromaDB,84,Premium services,53.36,0.0,0.0,10
+ChromaDB,85,Budget friendly products,49.45,0.0,0.0,10
+ChromaDB,86,High quality items,54.69,0.0,0.0,10
+ChromaDB,87,Popular choices,56.26,0.0,0.0,10
+ChromaDB,88,Trending products,60.61,0.0,0.0,10
+ChromaDB,89,Featured businesses,49.8,0.0,0.0,10
+ChromaDB,90,Special offers,52.61,0.0,0.0,10
+ChromaDB,91,Best value products,51.1,0.0,0.0,10
+ChromaDB,92,Exclusive services,47.94,0.0,0.0,10
+ChromaDB,93,Recommended items,55.49,0.0,0.0,10
+ChromaDB,94,Customer favorites,59.58,0.0,0.0,10
+ChromaDB,95,Top sellers,58.88,0.0,0.0,10
+ChromaDB,96,New arrivals,54.52,0.0,0.0,10
+ChromaDB,97,Seasonal deals,63.93,0.0,0.0,10
+ChromaDB,98,Limited edition,51.74,0.0,0.0,10
+ChromaDB,99,Luxury items,52.1,0.0,0.0,10
