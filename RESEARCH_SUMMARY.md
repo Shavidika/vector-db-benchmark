@@ -31,15 +31,15 @@ This research presents a **fair and comprehensive** benchmarking study of three 
 
 ### 🏆 Overall Winners by Use Case
 
-| Use Case                          | Recommended Database | Key Metric                       | Justification                                            |
-| --------------------------------- | -------------------- | -------------------------------- | -------------------------------------------------------- |
-| **High-Accuracy Applications**    | Qdrant               | 20.7% precision, 36.4% recall    | 70% better precision than Weaviate                       |
-| **Speed-Critical Applications**   | Weaviate             | 8.14ms avg query latency         | 35% faster than Qdrant                                   |
-| **Bulk Data Ingestion**           | Weaviate             | 1,147 records/second             | 12% faster than Qdrant after fair configuration          |
-| **Multi-Tenant Query Performance** | Weaviate             | 5.27ms multi-tenant latency      | 43% faster than Qdrant                                   |
-| **Multi-Tenant Insertion**        | Weaviate             | 662.70s for 50 tenants           | 2% faster than Qdrant                                    |
-| **Perfect Data Isolation**        | **All Three**        | 0% cross-tenant leakage          | All databases verified across 1,500 queries              |
-| **Best Balance**                  | Qdrant               | Strong accuracy + good speed     | Optimal for accuracy-sensitive production deployments    |
+| Use Case                           | Recommended Database | Key Metric                    | Justification                                         |
+| ---------------------------------- | -------------------- | ----------------------------- | ----------------------------------------------------- |
+| **High-Accuracy Applications**     | Qdrant               | 20.7% precision, 36.4% recall | 70% better precision than Weaviate                    |
+| **Speed-Critical Applications**    | Weaviate             | 8.14ms avg query latency      | 35% faster than Qdrant                                |
+| **Bulk Data Ingestion**            | Weaviate             | 1,147 records/second          | 12% faster than Qdrant after fair configuration       |
+| **Multi-Tenant Query Performance** | Weaviate             | 5.27ms multi-tenant latency   | 43% faster than Qdrant                                |
+| **Multi-Tenant Insertion**         | Weaviate             | 662.70s for 50 tenants        | 2% faster than Qdrant                                 |
+| **Perfect Data Isolation**         | **All Three**        | 0% cross-tenant leakage       | All databases verified across 1,500 queries           |
+| **Best Balance**                   | Qdrant               | Strong accuracy + good speed  | Optimal for accuracy-sensitive production deployments |
 
 ### 💡 Key Research Findings
 
@@ -62,6 +62,7 @@ This research presents a **fair and comprehensive** benchmarking study of three 
 Initial benchmarks showed Weaviate significantly faster than Qdrant, which contradicted many industry benchmarks. Investigation revealed:
 
 **Configuration Bias**:
+
 - Qdrant: `batch_size = 100`
 - Weaviate: Dynamic batching (adaptive, typically 500-1000)
 - ChromaDB: `batch_size = 5000`
@@ -71,24 +72,26 @@ This gave Qdrant a **10× disadvantage** in batch processing!
 ### Corrections Applied
 
 ✅ **Qdrant Optimizations**:
+
 1. Increased batch size from 100 to 1000 (10× improvement)
 2. Added HNSW config: `m=16, ef_construct=200`
 3. Same optimizations applied to all benchmarks
 
 ✅ **Fair Comparison**:
+
 - All databases now use batch_size ≥ 1000
 - Consistent HNSW parameters where applicable
 - Same embedding generation pipeline
 
 ### Impact of Corrections
 
-| Metric                   | Before Optimization | After Optimization | Improvement |
-| ------------------------ | ------------------- | ------------------ | ----------- |
-| Qdrant Ingestion         | 980 rec/s           | 1,020 rec/s        | +4.1%       |
-| Qdrant Precision@10      | 12.4%               | 20.7%              | +67%        |
-| Qdrant Recall@10         | 29.6%               | 36.4%              | +23%        |
-| Qdrant Multi-Tenant Insert | 646.91s           | 677.53s            | +5% (within noise) |
-| Qdrant Multi-Tenant Query | 11.81ms            | 9.29ms             | -21% (faster!) |
+| Metric                     | Before Optimization | After Optimization | Improvement        |
+| -------------------------- | ------------------- | ------------------ | ------------------ |
+| Qdrant Ingestion           | 980 rec/s           | 1,020 rec/s        | +4.1%              |
+| Qdrant Precision@10        | 12.4%               | 20.7%              | +67%               |
+| Qdrant Recall@10           | 29.6%               | 36.4%              | +23%               |
+| Qdrant Multi-Tenant Insert | 646.91s             | 677.53s            | +5% (within noise) |
+| Qdrant Multi-Tenant Query  | 11.81ms             | 9.29ms             | -21% (faster!)     |
 
 **Conclusion**: With fair configuration, **Qdrant emerges as the accuracy leader** while maintaining competitive speed.
 
@@ -100,11 +103,11 @@ This gave Qdrant a **10× disadvantage** in batch processing!
 
 **Dataset Generation**: Synthetic data using Faker library for realistic patterns
 
-| Dataset Component | Count  | Characteristics                                          |
-| ----------------- | ------ | -------------------------------------------------------- |
-| Businesses        | 500    | 6 business types (Restaurant, Hotel, E-commerce, etc.)   |
-| Products          | 50,000 | 8 product categories, realistic names/descriptions       |
-| Total Records     | 50,500 | Each with 384-dimensional vector embedding               |
+| Dataset Component | Count  | Characteristics                                        |
+| ----------------- | ------ | ------------------------------------------------------ |
+| Businesses        | 500    | 6 business types (Restaurant, Hotel, E-commerce, etc.) |
+| Products          | 50,000 | 8 product categories, realistic names/descriptions     |
+| Total Records     | 50,500 | Each with 384-dimensional vector embedding             |
 
 **Vector Embeddings**:
 
@@ -117,12 +120,12 @@ This gave Qdrant a **10× disadvantage** in batch processing!
 
 **Configuration**: 50 independent tenants (simulating 50 separate businesses)
 
-| Parameter                    | Value  | Description                           |
-| ---------------------------- | ------ | ------------------------------------- |
-| Tenants                      | 50     | Separate collections/namespaces       |
-| Products per Tenant          | 500    | 25,000 total records                  |
-| Queries per Tenant           | 10     | 500 total test queries                |
-| Isolation Verification Tests | 1,500  | 500 queries × 3 databases             |
+| Parameter                    | Value  | Description                            |
+| ---------------------------- | ------ | -------------------------------------- |
+| Tenants                      | 50     | Separate collections/namespaces        |
+| Products per Tenant          | 500    | 25,000 total records                   |
+| Queries per Tenant           | 10     | 500 total test queries                 |
+| Isolation Verification Tests | 1,500  | 500 queries × 3 databases              |
 | Leakage Detection Method     | Strict | All results must belong to same tenant |
 
 ---
@@ -211,7 +214,7 @@ This gave Qdrant a **10× disadvantage** in batch processing!
 
 - Tenants: 50 separate businesses
 - Products per Tenant: 500 (25,000 total records)
-- Implementation: 
+- Implementation:
   - Qdrant: Separate collections (batch_size=1000, HNSW optimized)
   - Weaviate: Native multi-tenancy (batch_size=1000)
   - ChromaDB: Collection-per-tenant (batch_size=5000)
@@ -247,8 +250,8 @@ This gave Qdrant a **10× disadvantage** in batch processing!
 
 **Query Latency Overhead** (vs single-tenant baseline):
 
-| Database     | Single-Tenant (ms) | Multi-Tenant (ms) | Overhead (%) | Assessment |
-| ------------ | ------------------ | ----------------- | ------------ | ---------- |
+| Database     | Single-Tenant (ms) | Multi-Tenant (ms) | Overhead (%)  | Assessment |
+| ------------ | ------------------ | ----------------- | ------------- | ---------- |
 | **Weaviate** | 8.14               | 5.27              | **-35.3%** ✅ | Improved!  |
 | **Qdrant**   | 12.57              | 9.29              | **-26.1%** ✅ | Improved!  |
 | **ChromaDB** | 59.25              | 56.84             | **-4.1%** ✅  | Improved!  |
@@ -277,18 +280,18 @@ This gave Qdrant a **10× disadvantage** in batch processing!
 
 ### Performance Matrix (Fair Configuration)
 
-| Metric                  | Weaviate       | Qdrant       | ChromaDB     | Winner   |
-| ----------------------- | -------------- | ------------ | ------------ | -------- |
-| Ingestion Throughput    | 1,147 rec/s 🥇 | 1,021 rec/s  | 809 rec/s    | Weaviate |
-| Single-Tenant Query     | 8.14ms 🥇      | 12.57ms      | 59.25ms      | Weaviate |
-| Multi-Tenant Query      | 5.27ms 🥇      | 9.29ms       | 56.84ms      | Weaviate |
-| Multi-Tenant Insertion  | 662.70s 🥇     | 677.53s      | 847.01s      | Weaviate |
-| Precision@10            | 0.122          | 0.207 🥇     | 0.174        | Qdrant   |
-| Recall@10               | 0.254          | 0.364 🥇     | 0.320        | Qdrant   |
-| Memory Usage (MT)       | 847 MB 🥇      | 925 MB       | 1179 MB      | Weaviate |
-| Tenant Isolation        | 0% leak 🥇     | 0% leak 🥇   | 0% leak 🥇   | All Tied |
-| Query Consistency       | 6.5 std dev    | 5.8 std dev 🥇 | 32.1 std dev | Qdrant   |
-| Index Build Speed       | 0.17s          | 0.26s        | 0.03s 🥇     | ChromaDB |
+| Metric                 | Weaviate       | Qdrant         | ChromaDB     | Winner   |
+| ---------------------- | -------------- | -------------- | ------------ | -------- |
+| Ingestion Throughput   | 1,147 rec/s 🥇 | 1,021 rec/s    | 809 rec/s    | Weaviate |
+| Single-Tenant Query    | 8.14ms 🥇      | 12.57ms        | 59.25ms      | Weaviate |
+| Multi-Tenant Query     | 5.27ms 🥇      | 9.29ms         | 56.84ms      | Weaviate |
+| Multi-Tenant Insertion | 662.70s 🥇     | 677.53s        | 847.01s      | Weaviate |
+| Precision@10           | 0.122          | 0.207 🥇       | 0.174        | Qdrant   |
+| Recall@10              | 0.254          | 0.364 🥇       | 0.320        | Qdrant   |
+| Memory Usage (MT)      | 847 MB 🥇      | 925 MB         | 1179 MB      | Weaviate |
+| Tenant Isolation       | 0% leak 🥇     | 0% leak 🥇     | 0% leak 🥇   | All Tied |
+| Query Consistency      | 6.5 std dev    | 5.8 std dev 🥇 | 32.1 std dev | Qdrant   |
+| Index Build Speed      | 0.17s          | 0.26s          | 0.03s 🥇     | ChromaDB |
 
 ---
 
@@ -339,8 +342,8 @@ This gave Qdrant a **10× disadvantage** in batch processing!
   - Good speed (12.57ms), excellent accuracy (20.7%)
   - Solid multi-tenant support
   - Predictable performance
-  
 - **Weaviate**: Best for speed-sensitive general applications
+
   - Excellent speed (8.14ms), acceptable accuracy (12.2%)
   - Superior multi-tenant performance
   - Lower memory usage
@@ -420,6 +423,7 @@ All figures generated in high resolution (300 DPI) and saved to `results/paper_f
 ### Configuration Lessons Learned
 
 ✅ **Critical for Fair Benchmarking**:
+
 - Use consistent batch sizes (≥1000 for all databases)
 - Apply HNSW optimization where available
 - Match embedding generation pipelines
@@ -427,6 +431,7 @@ All figures generated in high resolution (300 DPI) and saved to `results/paper_f
 - Document all configuration parameters
 
 ❌ **Common Pitfalls**:
+
 - Default settings favor different databases
 - Small batch sizes artificially slow some databases
 - Single-query tests miss batch processing advantages
