@@ -1,0 +1,44 @@
+{
+  "qdrant": {
+    "total_insertion_time": 102.36976480484009,
+    "avg_insertion_time_per_tenant": 8.986302804946899,
+    "total_query_time": 2.581648588180542,
+    "avg_query_latency": 10.012259483337402,
+    "min_query_latency": 4.012823104858398,
+    "max_query_latency": 26.914596557617188,
+    "std_query_latency": 6.2548279111840595,
+    "avg_memory_mb": 409.022265625,
+    "avg_cpu_percent": 2.0046028854511806,
+    "cross_tenant_leakage": 0,
+    "total_queries": 100,
+    "leakage_rate": 0.0
+  },
+  "weaviate": {
+    "total_insertion_time": 153.2163381576538,
+    "avg_insertion_time_per_tenant": 14.0034019947052,
+    "total_query_time": 2.4015254974365234,
+    "avg_query_latency": 5.136387348175049,
+    "min_query_latency": 1.5132427215576172,
+    "max_query_latency": 29.958248138427734,
+    "std_query_latency": 3.0936016842500904,
+    "avg_memory_mb": 334.083984375,
+    "avg_cpu_percent": 1.838447770629959,
+    "cross_tenant_leakage": 0,
+    "total_queries": 100,
+    "leakage_rate": 0.0
+  },
+  "chromadb": {
+    "total_insertion_time": 107.44924116134644,
+    "avg_insertion_time_per_tenant": 9.381446814537048,
+    "total_query_time": 6.88020133972168,
+    "avg_query_latency": 54.025118350982666,
+    "min_query_latency": 34.8660945892334,
+    "max_query_latency": 81.44497871398926,
+    "std_query_latency": 8.079499319216154,
+    "avg_memory_mb": 451.851171875,
+    "avg_cpu_percent": 0.0,
+    "cross_tenant_leakage": 0,
+    "total_queries": 100,
+    "leakage_rate": 0.0
+  }
+}

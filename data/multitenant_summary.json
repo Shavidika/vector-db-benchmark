@@ -1,0 +1,47 @@
+{
+  "generated_at": "2025-10-07T23:57:49.702848",
+  "num_businesses": 1000,
+  "num_products": 500000,
+  "products_per_business": 500,
+  "business_types": [
+    "manufacturer",
+    "distributor",
+    "online",
+    "wholesale",
+    "retail"
+  ],
+  "cities": [
+    "Austin",
+    "Phoenix",
+    "Philadelphia",
+    "Seattle",
+    "San Jose",
+    "Columbus",
+    "San Francisco",
+    "Dallas",
+    "Chicago",
+    "Charlotte",
+    "Washington DC",
+    "Denver",
+    "San Diego",
+    "Jacksonville",
+    "San Antonio",
+    "Los Angeles",
+    "New York",
+    "Indianapolis",
+    "Houston",
+    "Fort Worth"
+  ],
+  "product_categories": [
+    "Automotive",
+    "Sports",
+    "Office Supplies",
+    "Toys",
+    "Electronics",
+    "Beauty",
+    "Food & Beverage",
+    "Books",
+    "Clothing",
+    "Home & Garden"
+  ]
+}
